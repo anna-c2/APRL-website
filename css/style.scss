@@ -1272,16 +1272,39 @@ a:hover, a:active{
     Clients
 ================================*/
 
-.clients .brand {
-  padding: 40px 25px;
-  opacity: .4;
-  &:hover {
-    opacity: 1;
-  }
-  img {
-    display: inline-block;
-  }  
-}
+// .clients .brand {
+//   padding: 40px 25px;
+//   opacity: .4;
+//   &:hover {
+//     opacity: 1;
+//   }
+//   img {
+//     display: inline-block;
+//   }  
+// }
+// .marquee {
+//   display: flex;
+//   overflow: hidden;
+//   user-select: none;
+//   gap: var(--gap);
+//   mask-image: linear-gradient(
+//     var(--mask-direction, to right),
+//     hsl(0 0% 0% / 0),
+//     hsl(0 0% 0% / 1) 20%,
+//     hsl(0 0% 0% / 1) 80%,
+//     hsl(0 0% 0% / 0)
+//   );
+// }
+
+// .marquee__group {
+//   flex-shrink: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   gap: var(--gap);
+//   min-width: 100%;
+//   animation: scroll-x var(--duration) linear infinite;
+// }
 
 /*============================== 
     Contact
@@ -1903,15 +1926,15 @@ ul.countdown li {
       }
     }
   }
-
-  .clients {
-    .brand {
-      padding: 30px 15px;
-      img {
-        max-width: 150px;
-      }
-    }
-  }
+// CHANGED
+  // .clients {
+  //   .brand {
+  //     padding: 30px 15px;
+  //     img {
+  //       max-width: 150px;
+  //     }
+  //   }
+  // }
 
   .blog-nav {
     .navbar-nav{

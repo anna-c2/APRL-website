@@ -5,10 +5,11 @@
 
     <!-- Metas -->
     <meta charset="utf-8">
-    <meta name="author" content="Ali J. Gangeh" />    
+    <meta name="author" content="Ali J. Gangeh" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="rocketry liquid propulsion space UC Davis aggie propulsion lab rockets engine engineering APL ECLIPSE APRL" />
+    <meta name="keywords"
+        content="rocketry liquid propulsion space UC Davis aggie propulsion lab rockets engine engineering APL ECLIPSE APRL" />
     <meta name="description" content="Aggie Propulsion & Rocketry Lab (APRL) is a student-run bi-propellant liquid-fueled rocketry team. 
     We are working towards building UC Davis's first-ever liquid rocket. Our project will enable students at Davis to design, 
     build, test, and launch rockets for years to come. " />
@@ -17,18 +18,22 @@
     <title>APRL - Aggie Propulsion & Rocketry Lab</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+    <link rel="shortcut icon"
+        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+    <link rel="apple-touch-icon"
+        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
-    
-    <!--fontawesome-->    
+
+    <!--fontawesome-->
     <script src="https://kit.fontawesome.com/fdb1983a87.js" crossorigin="anonymous"></script>
 
 </head>
@@ -42,9 +47,11 @@
         </div>
     </div>
     <!-- End page loading -->
-    
+
     <!-- Start Header -->
-    <header class="header valign bg-img no-transition mobile-height-70vh mb-bg-position-x-center" data-scroll-index="0" data-overlay-dark="6" data-background="img/space/stars_sized.jpg" data-stellar-background-ratio="0.5">
+    <header class="header valign bg-img no-transition mobile-height-70vh mb-bg-position-x-center" data-scroll-index="0"
+        data-overlay-dark="3">
+        <!-- Prev. version had data-background="img/space/stars_sized.jpg" data-stellar-background-ratio="0.5" -->
 
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-lg border-none">
@@ -52,10 +59,13 @@
 
                 <!-- start logo -->
                 <!--  -->
-                    <img class="logo no-padding" style="width: 150pt; margin: 10pt;" src="APRL_branding/ICON_WITH_WORDMARK/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_WORDMARK_WhiteOnTransparentPath.png" alt="APRL_logo" title="Aggie Propulsion & Rocketry Lab">
+                <img class="logo no-padding" style="width: 150pt; margin: 10pt;"
+                    src="APRL_branding/ICON_WITH_WORDMARK/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_WORDMARK_WhiteOnTransparentPath.png"
+                    alt="APRL_logo" title="Aggie Propulsion & Rocketry Lab">
                 <!-- end Logo -->
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"><i class="fas fa-bars"></i></span>
                 </button>
 
@@ -71,20 +81,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="5">Donate</a>
                         </li>
-                        
+
                         <!--
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="3">About The Team</a>
                         </li>
                         -->
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6" >Projects</a>
+                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="2">Subteams</a>
                         </li>
-                        
-                        
+
+
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="4">Our team</a>
                         </li>
@@ -103,14 +113,25 @@
             -->
         </nav>
         <!-- End Navbar  -->
-
-        <div class="container">
+        
+        <section id="intro">
+            <video autoplay muted loop id="intro_vid">
+                <source src="intro_vid.mp4#t=1" type="video/mp4">
+            </video>
+            <div class="bg-fade"></div>
+            <div class="intro-logo fade-logo">
+                <img src="APRL_branding/psd_export/worm.png" alt="APRL Worm Logo" style="width: 300pt;" />
+            </div>
+        </section>
+        <di v class="container">
             <div class="row">
                 <div class="col-12 text-center caption">
-                    <div class="item">
-                        <img src="APRL_branding/psd_export/worm.png" alt="APRL Worm Logo" style="width: 300pt;" /> 
+                    
+                    
+                    <div class="item fade-logo">
+                        <img src="APRL_branding/psd_export/worm.png" alt="APRL Worm Logo" style="width: 300pt;" />
                     </div>
-<!--
+                    <!--
                     <h3 class="alt-font font-size28 sm-font-size18 no-margin">When Cows Fly</h3>
                     <h1 class="banner-headline">Aggie Propulsion Lab</h1>
                     <p class="margin-30px-bottom sm-margin-20px-bottom xs-display-none">We provide best for our client and respect their business design idea.</p>
@@ -121,6 +142,7 @@
                 </div>
             </div>
         </div>
+        
 
         <!-- Start Sidemenu 
         <div class="side-menu">
@@ -182,9 +204,14 @@
     <section class="no-padding-bottom" data-scroll-index="1">
         <div class="container padding-100px-bottom md-padding-70px-bottom sm-padding-50px-bottom row-gap-3">
             <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
-                    <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block">APRL - When Cows Fly</span>
-                    <h2 class="margin-10px-bottom font-weight-300 font-size34 md-font-size30 sm-font-size26 xs-font-size24"><strong>About Us</strong></h2>
+                <div
+                    class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                    <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block">APRL - When Cows
+                        Fly</span>
+                    <h2
+                        class="margin-10px-bottom font-weight-300 font-size34 md-font-size30 sm-font-size26 xs-font-size24">
+                        <strong>About Us</strong>
+                    </h2>
                     <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
                     <!-- <p style="font-size: 17px;" >Aggie Propulsion & Rocketry Lab (APRL) is a student run bi-propellant liquid-fueled rocketry team. We are
                         working towards building UC Davis's first ever liquid rocket. Our project will enable students at Davis to design, build, test and launch
@@ -194,25 +221,27 @@
             </div>
             <div class="row md-padding-50px-bottom">
                 <!-- start about slider section-->
-                <div class="col-lg-6 col-md-12" style="justify-content: center; align-content: center" >
+                <div class="col-lg-6 col-md-12" style="justify-content: center; align-content: center">
                     <div style="width: 90%;">
                         <img src="img/APRL_photos/projects/Heavy.jpg" alt=" " />
                     </div>
-                 </div>
-                 <!-- end about slider section-->
-                 <!-- start about description section-->
-                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center" >
-                    
+                </div>
+                <!-- end about slider section-->
+                <!-- start about description section-->
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+
                     <div class="padding-20px-left sm-no-padding" style="justify-content: center;">
-                        <div style=""> 
+                        <div style="">
                             <h5>Who We Are</h5>
-                            <p style="font-size: 18px; "> Aggie Propulsion & Rocketry Lab (APRL) is a student-run bi-propellant liquid-fueled rocketry team. 
-                                We are working towards building UC Davis's first-ever liquid rocket. Our project will enable students at Davis to design, 
+                            <p style="font-size: 18px; "> Aggie Propulsion & Rocketry Lab (APRL) is a student-run
+                                bi-propellant liquid-fueled rocketry team.
+                                We are working towards building UC Davis's first-ever liquid rocket. Our project will
+                                enable students at Davis to design,
                                 build, test, and launch rockets for years to come.
                             </p>
                         </div>
-                            
-                        
+
+
                         <!--
                         <div class="story-video">
                             <a class="btn video" href="video/down-time.mp4">
@@ -221,35 +250,37 @@
                             </a>
                         </div>
                         -->
-                    </div>                
+                    </div>
                 </div>
             </div>
-            
-                <!-- end about description section-->
 
-                 <!-- end about slider section-->
-                 <!-- start about description section-->
-                <div class="row">
-                    <div class="align-self-center col-lg-6 col-md-12">
-                        
-                        <div class="text-center">
-                            <!--
+            <!-- end about description section-->
+
+            <!-- end about slider section-->
+            <!-- start about description section-->
+            <div class="row">
+                <div class="align-self-center col-lg-6 col-md-12">
+
+                    <div class="text-center">
+                        <!--
                             <div class="text-center margin-30px-bottom">
                                 <h3 class="margin-10px-bottom font-weight-300 font-size28 md-font-size30 sm-font-size26 xs-font-size24"><b>Hands on Experience</b></h3>
                                 <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
                             </div>
                             -->
-                            
-                            <div class="align-items-center"> 
-                                <h5>Our Mission</h5>
-                                
-                                <span class="line_item">Make rocketry accessible to all students regardless of background or experience</span>
-                                <span class="line_item">Create a community of like-minded individuals sharing their passion for space and rocketry</span>
-                                <span class="line_item">Push the boundaries of undergraduate rocketry and propulsion</span>
-                                
-                            </div>
-                            
-                            <!--
+
+                        <div class="align-items-center">
+                            <h5>Our Mission</h5>
+
+                            <span class="line_item">Make rocketry accessible to all students regardless of background or
+                                experience</span>
+                            <span class="line_item">Create a community of like-minded individuals sharing their passion
+                                for space and rocketry</span>
+                            <span class="line_item">Push the boundaries of undergraduate rocketry and propulsion</span>
+
+                        </div>
+
+                        <!--
                             <div class="story-video">
                                 <a class="btn video" href="video/down-time.mp4">
                                     <i class="far fa-play-circle font-size20 text-white"></i>
@@ -257,39 +288,52 @@
                                 </a>
                             </div>
                             -->
-                        </div>                
-                    </div>
-
-                    <div class="col-lg-6 col-md-12 sm-margin-20px-bottom" style="justify-content: center; align-content: center" >
-                        <div style="width: 90%; float: right;">
-                            <img src="img/APRL_photos/projects/Heavy_launch.png"  />
-                        </div>
                     </div>
                 </div>
 
+                <div class="col-lg-6 col-md-12 sm-margin-20px-bottom"
+                    style="justify-content: center; align-content: center">
+                    <div style="width: 90%; float: right;">
+                        <img src="img/APRL_photos/projects/Heavy_launch.png" />
+                    </div>
+                </div>
+            </div>
+
         </div>
-        
+
     </section>
     <!-- End About Section-->
-    
+
     <section class="no-padding" data-scroll-index="5">
-        <div class="bg-img padding-100px-tb md-padding-70px-tb sm-padding-50px-tb parallax" data-overlay-dark="7" data-background="img/space/nasa.jpg">
+        <div class="bg-img padding-100px-tb md-padding-70px-tb sm-padding-50px-tb parallax" data-overlay-dark="7"
+            data-background="img/space/nasa.jpg">
             <div class="container width-60 md-width-65 sm-width-80 xs-width-90">
                 <div class="row">
                     <div class="text-center">
                         <div>
-                            <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block" style="color: #ff1d38">We build on your Generosity</span>
-                                <h3 class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 text-white margin-10px-bottom"><strong>Donate</strong></h3>
-                                <div class="margin-40px-bottom   separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
+                            <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block"
+                                style="color: #ff1d38">We build on your Generosity</span>
+                            <h3
+                                class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 text-white margin-10px-bottom">
+                                <strong>Donate</strong>
+                            </h3>
+                            <div
+                                class="margin-40px-bottom   separator-line-horrizontal-medium-light2 bg-theme center-col">
+                            </div>
                         </div>
-                        <p class=" sm-width-75 xs-width-90 center-col padding-40px-bottom font-size16 xs-font-size14" style="color: whitesmoke">
-                            Your generosity is what enables us to make our aspirations feasible. If you would like to support our rocketry journey, 
+                        <p class=" sm-width-75 xs-width-90 center-col padding-40px-bottom font-size16 xs-font-size14"
+                            style="color: whitesmoke">
+                            Your generosity is what enables us to make our aspirations feasible. If you would like to
+                            support our rocketry journey,
                             please consider donating or sponsoring.
                             <br><br>
-                            ARPL is always looking for companies willing to 
-                            provide materials, components, and services to get us closer to spaceflight. If you would like to learn more about sponsoring ARPL
-                            please check out our sponsorship package below, and <a data-scroll-nav="7" style="color: #ff1d38;"> contact us</a>. Donations
-                            go a long way in fueling our project. If you have the means, any donation to the crowdfunding linked below is an massive help to our team. 
+                            ARPL is always looking for companies willing to
+                            provide materials, components, and services to get us closer to spaceflight. If you would
+                            like to learn more about sponsoring ARPL
+                            please check out our sponsorship package below, and <a data-scroll-nav="7"
+                                style="color: #ff1d38;"> contact us</a>. Donations
+                            go a long way in fueling our project. If you have the means, any donation to the
+                            crowdfunding linked below is an massive help to our team.
                         </p>
                         <div>
                             <div style="width: 50%; float: left;">
@@ -298,60 +342,38 @@
                                 </a>
                             </div>
                             <div style="width: 50%; float: right;">
-                                <a href="https://giveto.ucdavis.edu/schools/UniversityofCaliforniaDavis/crowdfund-uc-davis-february-2026/pages/aprl" class="btn" style="float: left; margin-left: 10%">
+                                <a href="https://giveto.ucdavis.edu/schools/UniversityofCaliforniaDavis/crowdfund-uc-davis-february-2026/pages/aprl"
+                                    class="btn" style="float: left; margin-left: 10%">
                                     <span class="alt-font  font-size16 sm-font-size14">Donate</span>
                                 </a>
                             </div>
                         </div>
-                        
-                    
+
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- Start Clients Section --> 
-    <div class="clients text-center border-bottom border-color-extra-light-gray">
-        <div class="container">
-            <div class="owl-carousel">
-                    <div class="brand">
-                        <img src="img/Sponsors/coe_logo_125px.png" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/mae_logo_125px.png" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/mako_products.png" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/ifm_logo.svg" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/seco_seals.jpg" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/barnes_welding.png" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/titan_fittings.png" alt="">
-                    </div>
-                    <div class="brand">
-                        <img src="img/Sponsors/ANSYS_logo.png" alt="">
-                    </div>
-                
-            </div>
+
+    <!-- Start Clients Section -->
+    <div class="border-bottom border-color-extra-light-gray">
+        <div class="marquee">
+            <div id="marquee-track" class="marquee-track"></div>
         </div>
     </div>
-    <!-- End Clients Section -->  
+    <!-- End Clients Section -->
 
     <!-- Start Portfolio Section -->
-    <section class="portfolio " data-scroll-index="6">
+    <section class="portfolio no-padding " data-scroll-index="6">
         <div class="container" style="margin-bottom: 100px;">
             <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                <div
+                    class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
                     <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block">Ad Astra</span>
-                    <h3 class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">Projects</h3>
+                    <h3
+                        class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">
+                        Projects</h3>
                     <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
                 </div>
             </div>
@@ -377,7 +399,7 @@
                                 <div class="overlay-info width-100 vertical-center">
                                     <a href="Engine_mu.html">
                                         <i class="fa fa-fire"></i>
-                                    </a>                                    
+                                    </a>
                                     <h6>Engine &mu;</h6>
                                     <p>Sept. 2023 - Present</p>
                                 </div>
@@ -395,7 +417,7 @@
                                 <div class="overlay-info width-100 vertical-center">
                                     <a href="test_stand_mu.html">
                                         <i class="fa fa-droplet"></i>
-                                    </a>                                    
+                                    </a>
                                     <h6>Test Stand &mu;</h6>
                                     <p>Sept. 2023 - Present</p>
                                 </div>
@@ -410,11 +432,11 @@
                             <img src="img/APRL_photos/projects/heavy_alec.png" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <a href="heavy.html">
+                                    <a href="verstocket.html">
                                         <i class="fa fa-rocket"></i>
-                                    </a>                                    
-                                    <h6>Heavy</h6>
-                                    <p>Aug. 2023 - June 2023</p>
+                                    </a>
+                                    <h6>Verstocket</h6>
+                                    <p>Start - End</p>
                                 </div>
 
                             </div>
@@ -423,21 +445,21 @@
                     <!-- end gallery item -->
 
                     <!-- start gallery item -->
-                    <div class="col-md-4 items vehicle">
+                    <!-- <div class="col-md-4 items vehicle">
                         <div class="item-img">
                             <img src="img/APRL_photos/projects/Solar.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
                                     <a href="solar.html">
                                         <i class="fa fa-rocket"></i>
-                                    </a>                                    
+                                    </a>
                                     <h6>Solar</h6>
                                     <p>Aug. 2021 - May 2022</p>
                                 </div>
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end gallery item -->
 
                     <div class="clear-fix"></div>
@@ -448,141 +470,194 @@
         <!-- end of gallery -->
 
         <!--  Start Video Section -->
-            <div class="bg-img padding-100px-tb md-padding-70px-tb sm-padding-50px-tb parallax" data-overlay-dark="7" data-background="img/space/starry.jpg">
-                <div class="container width-50 md-width-65 sm-width-80 xs-width-90">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <i class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-20px-bottom theme-color"></i>
-                            <h5 class="margin-40px-bottom sm-margin-20px-bottom font-weight-300">up to the brink of the vast nocturnal and star-studded ocean of all that we still don't know</h5>
-                            <div class="separator-line-horrizontal-medium-light2 bg-theme center-col margin-40px-bottom sm-margin-20px-bottom"></div>
-                            <div class="alt-font theme-color font-size18 letter-spacing-1">The Order of Time - Carlo Rovelli</div>
+        <div class="bg-img padding-100px-tb md-padding-70px-tb sm-padding-50px-tb parallax" data-overlay-dark="7"
+            data-background="img/space/starry.jpg">
+            <div class="container width-50 md-width-65 sm-width-80 xs-width-90">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <i
+                            class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-20px-bottom theme-color"></i>
+                        <h5 class="margin-40px-bottom sm-margin-20px-bottom font-weight-300">up to the brink of the vast
+                            nocturnal and star-studded ocean of all that we still don't know</h5>
+                        <div
+                            class="separator-line-horrizontal-medium-light2 bg-theme center-col margin-40px-bottom sm-margin-20px-bottom">
+                        </div>
+                        <div class="alt-font theme-color font-size18 letter-spacing-1">The Order of Time - Carlo Rovelli
                         </div>
                     </div>
                 </div>
-            </div>
-        <!-- End Video Section -->
-        
-    <!--  Start Services Section -->
-    <section class="no-padding-bottom" data-scroll-index="2">
-        <div class="container padding-100px-bottom md-padding-70px-bottom sm-padding-50px-bottom">
-            <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
-                    <span class="alt-font theme-color margin-5px-bottom font-size14 letter-spacing-1 display-block">Divide &#38; Conquer</span>
-                    <h3 class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300"><strong>Subteams</strong></h3>
-                    <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-fire text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Engine</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing the injector, nozzle, and regen jacket. Design and fabrication of all combustion devices</p>
-                    </div>
-                </div>
-                <!-- end services item -->
-
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-droplet text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Propellent Feed</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing fluid systems &#38; test stand needed to supply specified mass flow and pressures.</p>
-                    </div>
-                </div>
-                <!-- end services item -->
-                
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-rocket text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Airframe</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing the body and integrating all components of the rocket. Conducting flight simulations.</p>
-                    </div>
-                </div>
-                <!-- end services item -->
-
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-meteor text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Recovery</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing robust parachute and recovery systems to ensure reliable recovery of the vehicle</p>
-                    </div>
-                </div>
-                <!-- end services item -->
-
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6 xs-margin-20px-bottom">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-bolt text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Electrical</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing electrical systems needed for data acquisition, data visualization, &#38; remote actuation.</p>
-                    </div>
-                </div>
-                <!-- end services item -->
-
-                <!-- start services item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01" style="height:275px">
-                        <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i class="fa fa-comments text-extra-dark-gray font-size24"></i></div>
-                        <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">Operations</div>
-                        <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Supporting engineering effort via gathering funds, branding of club, and educational outreach</p>
-                    </div>
-                </div>
-                <!-- end services item -->
             </div>
         </div>
+        <!-- End Video Section -->
 
-    </section>
-    <!-- End Services Section -->
- 
-    
-    
-    <!--  Start Counter Section -->
-    <section  data-scroll-index="3" style="margin-top: 0px; padding-top: 0px; padding-bottom: 0px">
-        <div class="numbers bg-img padding-100px-tb  no-margin parallax" data-overlay-dark="8"  data-background="img/space/history.jpg">
-            
-                <div class="container">
-                    <div class="text-center margin-30px-bottom">
-                        <h3 class="margin-10px-bottom font-weight-300 font-size28 md-font-size30 sm-font-size26 xs-font-size24" style="color: #ff1d38"><b>About the Team</b></h3>
+        <!--  Start Services Section -->
+        <section class="no-padding-bottom" data-scroll-index="2">
+            <div class="container padding-100px-bottom md-padding-70px-bottom sm-padding-50px-bottom">
+                <div class="row">
+                    <div
+                        class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                        <span
+                            class="alt-font theme-color margin-5px-bottom font-size14 letter-spacing-1 display-block">Divide
+                            &#38; Conquer</span>
+                        <h3
+                            class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">
+                            <strong>Subteams</strong>
+                        </h3>
                         <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
                     </div>
-                <div class="padding-30px-bottom"></div>
-
+                </div>
                 <div class="row">
-                    <!-- start counter item -->
-                    <div class="col-lg-4 col-md-8 sm-margin-30px-bottom">
-                        <div class="item text-center">
-                            <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i class="icon-profile-male"></i></span>
-                            <div style="display: flex; justify-content:center"><h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="50">50</h6><h6 class="font-size36 sm-font-size28 padding-10px-left no-margin ">+</h6></div>
-                            <p>Active members</p>
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-fire text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Engine</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing the
+                                injector, nozzle, and regen jacket. Design and fabrication of all combustion devices</p>
                         </div>
                     </div>
-                    <!-- end counter item -->
+                    <!-- end services item -->
 
-                    <!-- start counter item -->
-                    <div class="col-lg-4 col-md-8 sm-margin-30px-bottom">
-                        <div class="item text-center">
-                            <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i class="icon-gears"></i></span>
-                            <div style="display: flex; justify-content:center"><h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="8" >8</h6 ></div>
-                            <p>Successful launches</p>
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-droplet text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Propellant Feed</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing fluid
+                                systems &#38; test stand needed to supply specified mass flow and pressures.</p>
                         </div>
                     </div>
-                    <!-- end counter item -->
+                    <!-- end services item -->
 
-                    <!-- start counter item -->
-                    <div class="col-lg-4 col-md-8">
-                        <div class="item text-center xs-margin-30px-bottom">
-                            <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i class="icon-linegraph"></i></span>
-                            <div style="display: flex; justify-content:center"><h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="6240" >6240</h6 ><h6 class="font-size36 sm-font-size28 padding-10px-left no-margin ">h</h6></div>
-                            <p>time spent in past year</p>
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-rocket text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Airframe</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing the body
+                                and integrating all components of the rocket. Conducting flight simulations.</p>
                         </div>
                     </div>
-                    <!-- end counter item -->
+                    <!-- end services item -->
 
-                    <!-- start counter item --
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-meteor text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Recovery</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing robust
+                                parachute and recovery systems to ensure reliable recovery of the vehicle</p>
+                        </div>
+                    </div>
+                    <!-- end services item -->
+
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6 xs-margin-20px-bottom">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-bolt text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Electrical</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Developing
+                                electrical systems needed for data acquisition, data visualization, &#38; remote
+                                actuation.</p>
+                        </div>
+                    </div>
+                    <!-- end services item -->
+
+                    <!-- start services item -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bg-white box-shadow-large border-radius-5 text-center padding-30px-top padding-20px-lr feature-box01"
+                            style="height:275px">
+                            <div class="display-inline-block margin-20px-bottom bg-medium-light-gray feature-icon"><i
+                                    class="fa fa-comments text-extra-dark-gray font-size24"></i></div>
+                            <div class="alt-font text-extra-dark-gray margin-10px-bottom font-size18 xs-font-size16">
+                                Operations</div>
+                            <p class="width-85 md-width-90 xs-width-100 center-col no-margin-bottom">Supporting
+                                engineering effort via gathering funds, branding of club, and educational outreach</p>
+                        </div>
+                    </div>
+                    <!-- end services item -->
+                </div>
+            </div>
+
+        </section>
+        <!-- End Services Section -->
+
+
+
+        <!--  Start Counter Section -->
+        <section data-scroll-index="3" style="margin-top: 0px; padding-top: 0px; padding-bottom: 0px">
+            <div class="numbers bg-img padding-100px-tb  no-margin parallax" data-overlay-dark="8"
+                data-background="img/space/history.jpg">
+
+                <div class="container">
+                    <div class="text-center margin-30px-bottom">
+                        <h3 class="margin-10px-bottom font-weight-300 font-size28 md-font-size30 sm-font-size26 xs-font-size24"
+                            style="color: #ff1d38"><b>About the Team</b></h3>
+                        <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
+                    </div>
+                    <div class="padding-30px-bottom"></div>
+
+                    <div class="row">
+                        <!-- start counter item -->
+                        <div class="col-lg-4 col-md-8 sm-margin-30px-bottom">
+                            <div class="item text-center">
+                                <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i
+                                        class="icon-profile-male"></i></span>
+                                <div style="display: flex; justify-content:center">
+                                    <h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="50">50
+                                    </h6>
+                                    <h6 class="font-size36 sm-font-size28 padding-10px-left no-margin ">+</h6>
+                                </div>
+                                <p>Active members</p>
+                            </div>
+                        </div>
+                        <!-- end counter item -->
+
+                        <!-- start counter item -->
+                        <div class="col-lg-4 col-md-8 sm-margin-30px-bottom">
+                            <div class="item text-center">
+                                <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i
+                                        class="icon-gears"></i></span>
+                                <div style="display: flex; justify-content:center">
+                                    <h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="8">8
+                                    </h6>
+                                </div>
+                                <p>Successful launches</p>
+                            </div>
+                        </div>
+                        <!-- end counter item -->
+
+                        <!-- start counter item -->
+                        <div class="col-lg-4 col-md-8">
+                            <div class="item text-center xs-margin-30px-bottom">
+                                <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i
+                                        class="icon-linegraph"></i></span>
+                                <div style="display: flex; justify-content:center">
+                                    <h6 class="count font-size36 sm-font-size28 no-margin" data-from="0" data-to="6240">
+                                        6240</h6>
+                                    <h6 class="font-size36 sm-font-size28 padding-10px-left no-margin ">h</h6>
+                                </div>
+                                <p>time spent in past year</p>
+                            </div>
+                        </div>
+                        <!-- end counter item -->
+
+                        <!-- start counter item --
                     <div class="col-lg-4 col-md-8">
                         <div class="item text-center">
                             <span class="icon margin-20px-bottom sm-margin-15px-bottom"><i class="icon-trophy"></i></span>
@@ -591,485 +666,556 @@
                         </div>
                     </div>
                     <!-- end counter item -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- End Counter Section -->  
-    </section>
-    <!-- End Portfolio Section -->
-    
-    <!-- Start Team Section -->
-    <section class="team" data-scroll-index="4">
-        <div class="container">
+            <!-- End Counter Section -->
+        </section>
+        <!-- End Portfolio Section -->
 
-            <div class="row">
-                <div class="col-lg-8 col-md-10 col-sm-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
-                    <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block">Our Team's</span>
-                    <h3 class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300"><strong>Leadership </strong></h3>
-                    <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
+        <!-- Start Team Section -->
+        <section class="team" data-scroll-index="4">
+            <div class="container">
+
+                <div class="row">
+                    <div
+                        class="col-lg-8 col-md-10 col-sm-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                        <span class="alt-font theme-color margin-5px-bottom letter-spacing-1 display-block">Our
+                            Team's</span>
+                        <h3
+                            class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">
+                            <strong>Leadership</strong>
+                        </h3>
+                        <div class="separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="row">
-                <div style="display: flex; flex-direction: row;">
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Wilson.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/wilson-li-672739290/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Wilson Li</div>
-                                <div class="font-size12">Captain &#38; Chief Engineer of Propulsion</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
 
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Toby.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/toby-morrissey/"><i class="fab fa-linkedin-in text-white font-size18"></i></a>
+                <!-- start of executive -->
+                <div class="executive-members">
+                    <h3
+                        class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">
+                        Executive Team</h3>
+                    <div style="display: flex;">
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img src="img/APRL_photos/headshots/Wilson.png" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/wilson-li-672739290/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="bg-cover"></div>
                                 </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Toby Morrissey</div>
-                                <div class="font-size12">Captain &#38; Chief Engineer of Vehicle</div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Wilson Li</div>
+                                    <div class="font-size14">Captain &#38; Chief Engineer of Propulsion</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- End Team Member -->
 
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Eva.jpeg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/evaqzhou/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Toby.png" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/toby-morrissey/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="bg-cover"></div>
                                 </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Eva Zhou</div>
-                                <div class="font-size12">Recovery Lead</div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Toby Morrissey</div>
+                                    <div class="font-size14">Captain &#38; Chief Engineer of Vehicle</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- End Team Member -->
 
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Titas.jpg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block border-radius-100" href=""><i class="fab fa-linkedin-in text-white font-size16"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Titas De</div>
-                                <div class="font-size12">Engine Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
 
-                </div>
-                
-            </div>
-            
-            
-            <div style="padding: 10px"></div>
-            <div class="row">
-                <v style="display: flex; flex-direction: row;">
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Charan.jpg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href=""><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Charan Sampath</div>
-                                <div class="font-size12">Engine Lead</div>
-                            </div>
                         </div>
-                    </div>
-                    <!-- End Team Member -->
-
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Ava.jpeg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/ava-rusnak-55b7ba304/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Ava Rusnak</div>
-                                <div class="font-size12">Airframe Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Daniel.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/hieu-d-bui/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Daniel Fan</div>
-                                <div class="font-size12">Electrical Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Natasha.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href=""><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Natasha Alvarenga</div>
-                                <div class="font-size12">Recovery Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-                </div>
-            </div>
-            
-    
-
-        </div>
-        <div class="container">
-            <div style="padding: 10px"></div>
-            <div class="row">
-                <v style="display: flex; flex-direction: row;">
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Aila.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/aila-ysabel-alli-a28305198/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Aila Alli</div>
-                                <div class="font-size12">Safety Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Rachel.jpg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href=""><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Rachel Long</div>
-                                <div class="font-size12">Propellant Feed Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Nicholas.jpg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href=""><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Nicholas Richmond</div>
-                                <div class="font-size12">Propellant Feed Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Oliver.jpeg" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/oliver-ortiz-garcia-a87279281/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Oliver Ortiz Garcia</div>
-                                <div class="font-size12">Business Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-                </div>
-            </div>
-            
-        </div>
-        <div class="container">
-            <div style="padding: 10px"></div>
-            <div class="row">
-                <v style="display: flex; flex-direction: row;">
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                        <div class="team-style">
-                            <div class="team-member-img">
-                                <img class="img-responsive" src="img/APRL_photos/headshots/Jackson Wright.png" alt="">
-                                <div class="team-description">
-                                    <div class="team-description-wrapper">
-                                        <div class="team-description-content">
-                                            <div class="social-links">
-                                                <a class="d-inline-block margin-15px-right" href="https://www.linkedin.com/in/jacksontanwright/"><i class="fab fa-linkedin-in text-white font-size16"></i></a>                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bg-cover"></div>
-                            </div>
-                            <div class="text-center margin-25px-top">
-                                <div class="text-extra-dark-gray font-weight-600 font-size14 alt-font margin-5px-bottom">Jackson Wright</div>
-                                <div class="font-size12">Controls Lead</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Team Member -->
-
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
-                       
-                    </div>
-                    <!-- End Team Member -->
-
-                    <!-- Start Team Member -->
-                    <div class="text-center padding-20px-lr sm-padding-5px-lr" style="flex: 1">
                         
                     </div>
-                    <!-- End Team Member -->
-                    
+
                 </div>
+                <!-- end of executive -->
+
+                <div class="leads-row">
+                    <h3
+                        class="margin-10px-bottom font-size32 md-font-size27 sm-font-size24 xs-font-size20 font-weight-300">
+                        Subteam Leads</h3>
+                    <div style="display: flex;">
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img src="img/APRL_photos/headshots/Eva.jpeg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/evaqzhou/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Eva Zhou</div>
+                                    <div class="font-size14">Recovery Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Titas.jpg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right" href=""><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Titas De
+                                    </div>
+                                    <div class="font-size14">Engine Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Charan.jpg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right" href=""><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Charan Sampath</div>
+                                    <div class="font-size14">Engine Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img src="img/APRL_photos/headshots/Ava.jpeg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/ava-rusnak-55b7ba304/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Ava Rusnak</div>
+                                    <div class="font-size14">Airframe Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="leads-row">
+                    <div style="display: flex;">
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Daniel.png" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/hieu-d-bui/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Daniel Fan</div>
+                                    <div class="font-size14">Electrical Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Natasha.png" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right" href=""><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Natasha Alvarenga</div>
+                                    <div class="font-size14">Recovery Lead</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img src="img/APRL_photos/headshots/Aila.png" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/aila-ysabel-alli-a28305198/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Aila Alli</div>
+                                    <div class="font-size14">Safety Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Rachel.jpg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right" href=""><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Rachel Long</div>
+                                    <div class="font-size14">Propellant Feed Lead</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="leads-row">
+                    <div style="display: flex;">
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Nicholas.jpg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right" href=""><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Nicholas Richmond</div>
+                                    <div class="font-size14">Propellant Feed Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img src="img/APRL_photos/headshots/Oliver.jpeg" alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/oliver-ortiz-garcia-a87279281/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Oliver Ortiz Garcia</div>
+                                    <div class="font-size14">Business Lead</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+                            <div class="team-style">
+                                <div class="team-member-img">
+                                    <img class="img-responsive" src="img/APRL_photos/headshots/Jackson Wright.png"
+                                        alt="">
+                                    <div class="team-description">
+                                        <div class="team-description-wrapper">
+                                            <div class="team-description-content">
+                                                <div class="social-links">
+                                                    <a class="d-inline-block margin-15px-right"
+                                                        href="https://www.linkedin.com/in/jacksontanwright/"><i
+                                                            class="fab fa-linkedin-in text-white font-size16"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-cover"></div>
+                                </div>
+                                <div class="text-center margin-20px-top">
+                                    <div
+                                        class="text-extra-dark-gray font-weight-600 font-size18 alt-font margin-5px-bottom">
+                                        Jackson Wright</div>
+                                    <div class="font-size14">Controls Lead</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-container text-center padding-20px-lr sm-padding-5px-lr">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--  -->
+
+
             </div>
-            
-        </div>
-        
-    </section>
-    <!-- End Team Section -->
 
-    
 
-    <!-- Start Contact Section -->
-    <section class="contact bg-light-gray no-padding no-margin" data-scroll-index="7">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- start quickly contact -->
-                <div class="col-lg-6 info">
-                    <div class="padding-ten-lr padding-100px-tb padding-70px-tb sm-padding-50px-tb sm-no-padding-lr">
-                        <div>
-                            <span class="alt-font theme-color margin-5px-bottom text-center letter-spacing-1 display-block">Location</span>
-                            <h4 class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 margin-10px-bottom text-center text-white">Contact Us</h4>
-                            <div class="margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
-                        </div>
-                       
-                        <div class="item">
-                            <span class="icon"><i class="icon-map"></i></span>
-                            <div class="cont">
-                                <h6 class="text-white">PO Box: </h6>
-                                <p> Center for Student Involvement UC davis<br>
-                                    Box #519 One Shields Avenue<br>
-                                    Davis, California 95616-8706</p>
+
+
+
+            </div>
+
+
+
+            </div>
+
+
+            </div>
+
+
+            </div>
+
+        </section>
+        <!-- End Team Section -->
+
+
+
+        <!-- Start Contact Section -->
+        <section class="contact bg-light-gray no-padding no-margin" data-scroll-index="7">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- start quickly contact -->
+                    <div class="col-lg-6 info">
+                        <div
+                            class="padding-ten-lr padding-100px-tb padding-70px-tb sm-padding-50px-tb sm-no-padding-lr">
+                            <div>
+                                <span
+                                    class="alt-font theme-color margin-5px-bottom text-center letter-spacing-1 display-block">Location</span>
+                                <h4
+                                    class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 margin-10px-bottom text-center text-white">
+                                    Contact Us</h4>
+                                <div
+                                    class="margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom separator-line-horrizontal-medium-light2 bg-theme center-col">
+                                </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <span class="icon"><i class="icon-envelope"></i></span>
-                            <div class="cont">
-                                <h6 class="text-white">Email: </h6>
-                                <p>aprl@ucdavis.edu</p>
+
+                            <div class="item">
+                                <span class="icon"><i class="icon-map"></i></span>
+                                <div class="cont">
+                                    <h6 class="text-white">PO Box: </h6>
+                                    <p> Aggie Propulsion & Rocketry Lab, Mailbox #362 <br>
+                                        Center for Student Involvement <br>
+                                        University of California <br>
+                                        1 Shields Ave <br>
+                                        Davis, CA 95616
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <span class="icon"><i class="icon-profile-male"></i></span>
-                            <div class="cont">
-                                <h6 class="text-white" style="margin-bottom: 5px;">Socials: </h6>
-                                <div class="col-md-12 col-sm-12 ">
-                                    <div class="footer-social">
-                                        <a href="https://www.instagram.com/aprl.davis/"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/company/aprl-davis"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/channel/UCELXt69-D3ssPd7I-00yIGg"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://github.com/UC-Davis-APRL"><i class="fab fa-github"></i></a>
+                            <div class="item">
+                                <span class="icon"><i class="icon-envelope"></i></span>
+                                <div class="cont">
+                                    <h6 class="text-white">Email: </h6>
+                                    <p>aprl@ucdavis.edu</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="icon"><i class="icon-profile-male"></i></span>
+                                <div class="cont">
+                                    <h6 class="text-white" style="margin-bottom: 5px;">Socials: </h6>
+                                    <div class="col-md-12 col-sm-12 ">
+                                        <div class="footer-social">
+                                            <a href="https://www.instagram.com/aprl.davis/"><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/aprl-davis"><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/channel/UCELXt69-D3ssPd7I-00yIGg"><i
+                                                    class="fab fa-youtube"></i></a>
+                                            <a href="https://github.com/UC-Davis-APRL"><i class="fab fa-github"></i></a>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- start social media link -->
+
+                                <!-- end social media link -->
                             </div>
-                            <!-- start social media link -->
-                            
-                            <!-- end social media link -->
                         </div>
                     </div>
-                </div>
-                <!-- end quickly contact -->
-                <!-- start get in touch -->
-                <div class="col-lg-6">
-                    <div class="padding-ten-lr padding-100px-tb padding-70px-tb sm-padding-50px-tb sm-no-padding-lr">
-                        <div class="">
-                            <span class="alt-font theme-color margin-5px-bottom  text-center letter-spacing-1 display-block">Contact</span>
-                            <h4 class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 margin-10px-bottom text-center">Get In Touch Possible</h4>
-                            <div class="margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom separator-line-horrizontal-medium-light2 bg-theme center-col"></div>
-                        </div>
-                        <div class="no-margin-lr" id="success-contact-form"></div>
-                        <form id="contactForm" method="post" class="contact-form" action="sendemail.php">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="medium-input" maxlength="50" placeholder="Name *" required="required" id="name" name="name">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" class="medium-input" maxlength="70" placeholder="E-mail *" required="required" id="email" name="email">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="tel" class="medium-input" maxlength="10" placeholder="Phone" id="phone" name="phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="medium-input" maxlength="78" placeholder="Subject *" required="required" id="subject" name="subject">
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea class="big-textarea" rows="6" maxlength="1000" placeholder="Message *" required="required" id="message" name="message"></textarea>
-                                </div>
-                                <div class="col-md-12 text-center">
-                                    <button class="btn" type="submit">Send Message</button>
+                    <!-- end quickly contact -->
+                    <!-- start get in touch -->
+                    <div class="col-lg-6">
+                        <div
+                            class="padding-ten-lr padding-100px-tb padding-70px-tb sm-padding-50px-tb sm-no-padding-lr">
+                            <div style="padding-bottom: 10px;">
+                                <span
+                                    class="alt-font theme-color margin-5px-bottom  text-center letter-spacing-1 display-block">Contact</span>
+                                <h4
+                                    class="font-weight-300 font-size32 md-font-size27 sm-font-size24 xs-font-size20 margin-10px-bottom text-center">
+                                    Get In Touch Possible</h4>
+                                <div
+                                    class="margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom separator-line-horrizontal-medium-light2 bg-theme center-col">
                                 </div>
                             </div>
-                        </form>
+                            <div class="no-margin-lr" id="success-contact-form"></div>
+                            <form style="position: relative;" id="contactForm" method="POST" class="contact-form"
+                                action="https://formspree.io/f/mdajkgal">
+                                <!-- CHANGE: official is https://formspree.io/f/mojbvwvk -->
+                                <div class="no-margin-lr" id="success-contact-form"></div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="medium-input" maxlength="50" placeholder="Name *"
+                                            required="required" id="name" name="name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="medium-input" maxlength="70" placeholder="E-mail *"
+                                            required="required" id="email" name="email">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="tel" class="medium-input" maxlength="10" placeholder="Phone"
+                                            id="phone" name="phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="medium-input" maxlength="78" placeholder="Subject *"
+                                            required="required" id="subject" name="subject">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="big-textarea" rows="6" maxlength="1000" placeholder="Message *"
+                                            required="required" id="message" name="message"></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <button class="btn" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end get in touch -->
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+        <div class="footer-bottom bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <span class="font-size12 text-uppercase letter-spacing-1">© 2025 APRL - Based on Hillux
+                            theme</span>
                     </div>
                 </div>
-                <!-- end get in touch -->
             </div>
         </div>
-    </section>
-    <!-- End Contact Section -->
-
-    <div class="footer-bottom bg-black">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 text-center">
-                    <span class="font-size12 text-uppercase letter-spacing-1">© 2025 APRL - Based on Hillux theme</span>
-                </div>
-            </div>
-        </div> 
-    </div>
-<!--     
+        <!--     
     <div id="back-to-top" class="back-to-top reveal">
         <i class="fa fa-angle-up"></i>
     </div> -->
-    <!--  Start Footer Section -->
-    <!-- <footer class="bg-white"> --
+        <!--  Start Footer Section -->
+        <!-- <footer class="bg-white"> --
         <!-- <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -1081,7 +1227,7 @@
                         <span class="font-size11 alt-font text-uppercase  display-block letter-spacing-1 text-dark-gray margin-15px-top margin-30px-bottom xs-margin-fifteen">Aggie Propulsion & Rocketry Lab - When Cows fly</span>
                     </div>
                     <!-- end footer logo -->
-                    <!-- start social media link --
+        <!-- start social media link --
                     <div class="col-md-12 col-sm-12 text-center">
                         <div class="footer-social">
                             <a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>
@@ -1097,47 +1243,59 @@
     </footer>
     <!-- End Footer Section -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
 
-    <!-- popper.min -->
-    <script src="js/popper.min.js"></script>
+        <!-- popper.min -->
+        <script src="js/popper.min.js"></script>
 
-    <!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
 
-    <!-- scrollIt -->
-    <script src="js/scrollIt.min.js"></script>
+        <!-- scrollIt -->
+        <script src="js/scrollIt.min.js"></script>
 
-    <!-- animated.headline -->
-    <script src="js/animated.headline.js"></script>
+        <!-- animated.headline -->
+        <script src="js/animated.headline.js"></script>
 
-    <!-- jquery.appear -->
-    <script src="js/jquery.appear.js"></script>
+        <!-- jquery.appear -->
+        <script src="js/jquery.appear.js"></script>
 
-    <!-- jquery.count.min -->
-    <script src="js/jquery.count.min.js"></script>
+        <!-- jquery.count.min -->
+        <script src="js/jquery.count.min.js"></script>
 
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+        <!-- owl carousel -->
+        <script src="js/owl.carousel.min.js"></script>
 
-    <!-- jquery.magnific-popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- jquery.magnific-popup js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <!-- stellar js -->
-    <script src="js/jquery.stellar.min.js"></script>
+        <!-- stellar js -->
+        <script src="js/jquery.stellar.min.js"></script>
 
-    <!-- isotope.pkgd.min js -->
-    <script src="js/isotope.pkgd.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="js/isotope.pkgd.min.js"></script>
 
-    <!-- countdown -->
-    <script src="js/countdown.js"></script>
+        <!-- countdown -->
+        <script src="js/countdown.js"></script>
 
-    <!-- Map -->
-    <script src="js/map.js"></script>
+        <!-- Map -->
+        <script src="js/map.js"></script>
 
-    <!-- custom scripts -->
-    <script src="js/scripts.js"></script>
-</body>
+        <!-- custom scripts -->
+        <script src="js/scripts.js"></script>
+
+        <script src="js/contactus.js"></script>
+
+        <!-- sponsors script -->
+        <script src="js/sponsors.js"></script>
+
+        <!-- members script -->
+        <script src="js/teammember.js"></script>
+
+        <!-- <script>
+            document.querySelector('video').playbackRate = 2.5;
+        </script> -->
+    </body>
 
 </html>

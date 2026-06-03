@@ -199,27 +199,27 @@ $(function() {
         }
     });
 
-    // Client owlCarousel
-    $('.clients .owl-carousel').owlCarousel({
-        loop:true,
-        margin: 15,
-        autoplay:true,
-        smartSpeed:500,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                margin: 0
-            },
-            700:{
-                items:2,
-                margin: 15
-            },
-            1000:{
-                items:5
-            }
-        }
-    });
+    // // Client owlCarousel
+    // $('.clients .owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin: 15,
+    //     autoplay:true,
+    //     smartSpeed:500,
+    //     responsiveClass:true,
+    //     responsive:{
+    //         0:{
+    //             items:1,
+    //             margin: 0
+    //         },
+    //         700:{
+    //             items:2,
+    //             margin: 15
+    //         },
+    //         1000:{
+    //             items:5
+    //         }
+    //     }
+    // });
 
     // magnificPopup
     $('.gallery').magnificPopup({
@@ -354,7 +354,7 @@ $(function() {
         var form = $('.contact-form');
         form.submit(function() {
             $.post(form.attr('action'), $('.contact-form').serialize(), function(data) {
-                form.prev().text(data.message).fadeIn().delay(3000).fadeOut();
+                $(`#success-contact-form`).text("Your email has been sent!").fadeIn().delay(3000).fadeOut();
             }, 'json');
             return false;
         });
