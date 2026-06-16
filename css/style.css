@@ -2374,4 +2374,9 @@ mask-image: radial-gradient(
   }
 }
 
+.row.about {
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
 /*# sourceMappingURL=style.css.map */

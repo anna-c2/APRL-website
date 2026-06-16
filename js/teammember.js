@@ -4,7 +4,7 @@ async function loadMembers(){
     const members = await res.json();
 
     // display executive leads: getElementById
-    const exec_leads = members.map(m => memberCard())
+    const exec_leads = members.map(m => memberCard(m))
     // display subteam leads: getElementById
     const subteam_leads = members.map(m => memberCard(m))
 
