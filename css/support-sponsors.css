@@ -1,0 +1,88 @@
+#support-section {
+    background: #191717;
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+    align-items: center;
+    width: 1200px;
+}
+
+#support-section .heading {
+    font-size: 23px;
+    color: white;
+    padding-top: 10px;
+}
+
+#support-section .text {
+    font-size: 18px;
+    width: 700px;
+    text-align: left;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta button {
+    background: #191717;
+    border: 2px #ff1d38 solid;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    width: 120px;
+}
+
+#sponsors {
+    background: #191717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 30px;
+}
+
+#sponsors .heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+#sponsors .heading p {
+    font-weight: 600;
+    margin: 0;
+    font-size: 23px;
+}
+
+.sponsor-text {
+    padding-block: 20px;
+    color: white;
+    font-size: 16px;
+    width: 750px;
+}
+
+#sponsors button {
+    background: #ff1d38;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 10px;
+    width: 170px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.padding-15 {
+    padding-block: 15px;
+}
+
+.support,
+.sponsors-section,
+.contact,
+.social-section {
+    width: 1200px;
+}

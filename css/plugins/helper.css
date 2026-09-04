@@ -584,10 +584,6 @@ h6 {
     margin-right: auto;
 }
 
-section {
-    padding: 100px 0;
-    overflow: hidden;
-}
 
 .big-input,
 .big-textarea,
@@ -10932,7 +10928,7 @@ section {
 
     /* custom */
     section {
-        padding: 50px 0;
+        padding: 0;
     }
 
     .sm-center-col {
