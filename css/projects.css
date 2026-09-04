@@ -1,0 +1,76 @@
+.filtering button{
+    color: black;
+    padding: 3px 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    min-width: 80px;
+    text-align: center;
+    font-weight: 600;
+    background: white;
+}
+
+.project-section{
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.project-heading{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.project-section .top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filtering{
+    display: flex;
+    gap: 10px;
+}
+
+.project-section .descr{
+    color: black;
+    font-size: 15px;
+}
+
+.black-divider{
+    height: 2px;
+    background: black;
+
+}
+
+.projects-container{
+    display: flex;
+    gap: 1px;
+}
+.project{
+    position: relative;
+    width: 200px;
+    height: 350px;
+}
+.project p{
+    text-align:center;
+    margin-inline: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.filtering .active{
+    background: #ff1d38;
+    border: none;
+    color: white;
+}
+
+.project img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
