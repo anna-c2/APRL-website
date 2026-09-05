@@ -77,34 +77,34 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="javascript:void(0);" data-scroll-nav="0">Home</a>
+                            <a class="nav-link active" href="#navBarContent">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">About Us</a>
+                            <a class="nav-link" href="#about-section">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Our Mission</a>
+                            <a class="nav-link" href="#mission">Our Mission</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Projects</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Subteams</a>
+                            <a class="nav-link" href="#subteams">Subteams</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Leadership</a>
+                            <a class="nav-link" href="#leadership">Leadership</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">The APRL Archives</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Support Us!</a>
+                            <a class="nav-link" href="#support-section">Support Us!</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">Sponsor Us!</a>
+                            <a class="nav-link" href="#sponsors">Sponsor Us!</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="5">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
 
 
@@ -183,7 +183,7 @@
                 <img style="margin: -200px 0 0 0; filter: brightness(150%);" alt="group photo of aprl members"
                     src="img\people\about.png">
             </div>
-            <div class="row mission pt-4">
+            <div id="mission" class="row mission pt-4">
                 <div class="center-col text-center">
                     <h5 class="heading">Our Mission</h5>
                 </div>
@@ -223,7 +223,7 @@
         </section>
         <!-- End About Section-->
 
-        <section class="project-section center-col">
+        <section id="projects" class="project-section center-col">
             <div class="black-divider"></div>
             <div style="padding-block: 30px;">
                 <div class="top-bar">
@@ -240,41 +240,53 @@
                     systems.</p>
                 <div class="projects-container">
                     <div class="project" style="background:#808ec5">
-                        <div class="overlay"></div>
-                        <img src="img\APRL_photos\projects\ALI.JPG">
-                        <p>Adaptive Liquid Infrastructure Stand (ALI)</p>
+                        <a href="ALI.html">
+                            <div class="overlay"></div>
+                            <img src="img\APRL_photos\projects\ALI.JPG">
+                            <p>Adaptive Liquid Infrastructure Stand (ALI)</p>
+                        </a>
                     </div>
                     <div class="project" style="background:#80c5bf">
-                        <div class="overlay"></div>
-                        <img src="">
-                        <p>Vertical Test Stand (VTS)</p>
+                        <a href="VTS.html">
+                            <div class="overlay"></div>
+                            <img src="">
+                            <p>Vertical Test Stand (VTS)</p>
+                        </a>
                     </div>
                     <div class="project" style="background:#808ec5">
-                        <div class="overlay"></div>
-                        <img src="">
-                        <p>Mach Verstocket</p>
+                        <a href="verstocket.html">
+                            <div class="overlay"></div>
+                            <img src="">
+                            <p>Mach Verstocket</p>
+                        </a>
                     </div>
                     <div class="project" style="background:#c580c4">
-                        <div class="overlay"></div>
-                        <img src="img\APRL_photos\projects\engine mu2.JPG" class="">
-                        <p>Engine &mu;2</p>
+                        <a href="Engine_mu.html">
+                            <div class="overlay"></div>
+                            <img src="img\APRL_photos\projects\engine mu2.JPG" class="">
+                            <p>Engine &mu;2</p>
+                        </a>
                     </div>
                     <div class="project" style="background:#c5808e">
-                        <div class="overlay"></div>
-                        <img src="">
-                        <p>Thrust Vector Control Concept (TVSC^2)</p>
+                        <a href="thrust.html">
+                            <div class="overlay"></div>
+                            <img src="">
+                            <p>Thrust Vector Control Concept (TVSC^2)</p>
+                        </a>
                     </div>
                     <div class="project" style="background:#808ec5">
-                        <div class="overlay"></div>
-                        <img src="">
-                        <p>Ophiotaurus</p>
+                        <a href="ophio.html">
+                            <div class="overlay"></div>
+                            <img src="">
+                            <p>Ophiotaurus</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="black-divider"></div>
         </section>
 
-        <section>
+        <section id="subteams">
             <div class="section-head" style="text-align: center; padding-top:50px;">Subteams</div>
             <div id="subteam-subtext">
                 <p>The divisions powering</p>
@@ -364,7 +376,7 @@
                 </div>
             </div>
         </section>
-        <section class="home-section center-col">
+        <section id="leadership" class="home-section center-col">
             <div>
                 <p class="lead-heading">Leadership</p>
                 <!-- project manager -->
@@ -604,7 +616,7 @@
             </div>
         </section>
 
-        <section class="contact center-col padding-15">
+        <section id="contact" class="contact center-col padding-15">
             <div class="d-flex">
                 <div class="w-100 right-box">
                     <p class="contact-heading">Contact Us</p>

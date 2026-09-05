@@ -1,0 +1,119 @@
+.bold{
+    font-weight: 700;
+}
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("../img/APRL_photos/projects/ALI-wide.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {
+        position: relative;
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+
+    background-color: rgba(7, 5, 17, 0.6);
+
+    color: white;
+}
+
+
+.hero-overlay h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.top-bar{
+    position: absolute;
+    left: 10px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar h3{
+    color: #ff1d38;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.project-intro{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-intro{
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.hero-intro p{
+    font-size: 25px;
+}
+
+.overview-section{
+    background: #191717;
+    color: white;
+    display: flex;
+}
+.overview-section h2{
+    color: white;
+    font-size: 28px;
+}
+.description{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2;
+    width: 750px;
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-inline: 50px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.detail .metric{
+    font-weight: 700;
+    font-size: 24px;
+    width: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.detail .unit {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+.red-stripe{
+    border-left:#ff1d38 3px solid;
+    height: fit-content;
+    padding-block: 20px;
+}

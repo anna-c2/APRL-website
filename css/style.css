@@ -36,6 +36,7 @@ Table of contents
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -2563,7 +2564,7 @@ nav .container {
 }
 
 .sub-descr p{
-  color: #8a3c45;
+  color: #c18086;
   font-size: 20px;
   width: 450px;
   text-align: right;
@@ -2582,3 +2583,6 @@ nav .container {
   text-align: left;
 }
 
+.bold{
+  font-size: 700;
+}
