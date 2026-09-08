@@ -31,11 +31,13 @@
     color: black;
     font-size: 15px;
 }
-
+.project-section {
+    width: 100%;
+}
 .black-divider{
     height: 2px;
     background: black;
-
+    width: 100%;
 }
 
 .projects-container{
