@@ -7,7 +7,7 @@ strong{
 .hero {
     width: 100vw;
     height: 100vh;
-
+    max-height: 1200px;
     background-image: url("../img/APRL_photos/projects/ALI-wide.JPG");
     background-size: cover;
     background-position: center;

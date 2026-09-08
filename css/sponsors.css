@@ -1,33 +1,31 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  background: #181818;
+    margin: 0;
+    padding: 0;
+    background: #181818;
 }
 
 .hero {
-  min-height: 100vh;
-
-  background:
-    radial-gradient(
-      circle at 0% 20%,
-      rgba(180, 45, 90, 0.22) 0%,
-      transparent 38%
-    ),
-    linear-gradient(
-      to bottom,
-      #321253 0%,
-      #2c124a 45%,
-      #231831 65%,
-      #181818 80%,
-      #181818 100%
-    );
+    height: fit-content;
+    padding-bottom: 100px;
+    max-height: 1200px;
+    background:
+        radial-gradient(circle at 0% 20%,
+            rgba(180, 45, 90, 0.22) 0%,
+            transparent 38%),
+        linear-gradient(to bottom,
+            #321253 0%,
+            #2c124a 45%,
+            #231831 65%,
+            #181818 80%,
+            #181818 100%);
 }
 
 .page-content {
-  background: #181818;
-  min-height: 100vh;
+    background: #181818;
+    min-height: 100vh;
 }
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -35,20 +33,22 @@ body {
     text-align: center;
     color: white;
 }
-.hero-content .logo{
+
+.hero-content .logo {
     width: 300px;
 }
 
 .hero-content p {
     font-size: 20px;
 }
-.hero-content h4{
+
+.hero-content h4 {
     color: white;
     font-size: 25px;
     font-weight: 700;
 }
 
-button{
+button {
     background: none;
     color: white;
     font-weight: 600;
@@ -60,7 +60,7 @@ button{
     width: fit-content;
 }
 
-.sponsor-card{
+.sponsor-card {
     width: 350px;
     height: 350px;
     background: white;
@@ -69,11 +69,13 @@ button{
     align-items: center;
 }
 
-.sponsor-card img{
+.sponsor-card img {
     max-height: 250px;
     max-width: 300px;
 }
-.tier1, .tier2{
+
+.tier1,
+.tier2 {
     display: flex;
     gap: 30px;
     justify-content: center;

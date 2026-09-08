@@ -4,7 +4,7 @@
     text-align: center;
     padding-block: 10px;
     align-items: center;
-    width: 1200px;
+    width: 100%;
 }
 
 #support-section .heading {
@@ -86,7 +86,7 @@
 .sponsors-section,
 .contact,
 .social-section {
-    width: 1200px;
+    width: 100%;
 }
 
 button:hover, #sponsors button:hover{

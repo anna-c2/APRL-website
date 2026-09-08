@@ -33,14 +33,24 @@ Table of contents
 
     Added accordian bs:
 ---------------------------------- */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600; /* SemiBold */
+  font-weight: 600;
+  /* SemiBold */
+}
+
+.content-container{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*============================== 
@@ -61,7 +71,7 @@ body {
   opacity: 0;
 }
 
-#intro{
+#intro {
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
@@ -83,18 +93,21 @@ body {
   text-align: center;
 }
 
-.member-container{
+.member-container {
   width: 100%;
   max-width: 300px;
   margin: 0 auto
 }
-.executive-members{
+
+.executive-members {
   padding-bottom: 70px;
 }
-.leads-row{
+
+.leads-row {
   padding-bottom: 30px;
 }
-h3{
+
+h3 {
   padding-bottom: 30px;
 }
 
@@ -520,10 +533,10 @@ a:active {
   text-align: right;
 }
 
-#navbarContent{
- position: absolute;
- top: 40px;
- right: 20px;
+#navbarContent {
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
 
 /* .nav-scroll {
@@ -627,7 +640,8 @@ SPAN.line_item {
 }
 
 .header {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 1200px;
   overflow: hidden;
 }
 
@@ -1153,20 +1167,23 @@ SPAN.line_item {
   width: 100%;
   aspect-ratio: 1/1;
 }
-.item-img img{
+
+.item-img img {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
 }
+
 .item-img::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-.item-img p{
+
+.item-img p {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -1245,10 +1262,11 @@ SPAN.line_item {
   height: 270px;
   width: 100%;
 }
+
 .team-style .team-member-img img {
-  width: 100%;              
-  height: 100%;             
-  object-fit: cover;        
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .team-style .bg-cover {
@@ -1426,7 +1444,7 @@ SPAN.line_item {
       hsl(0 0% 0% / 0));
 }
 
-.brand{
+.brand {
   padding-inline: 1rem;
   min-width: fit-content;
   display: flex;
@@ -1434,7 +1452,7 @@ SPAN.line_item {
   justify-content: center;
 }
 
-.brand img{
+.brand img {
   max-height: 80px;
   width: auto;
   object-fit: contain;
@@ -1447,7 +1465,7 @@ SPAN.line_item {
   width: max-content;
 }
 
-.marquee-track{
+.marquee-track {
   display: flex;
   width: max-content;
   animation: scroll-x 20s linear infinite;
@@ -1457,6 +1475,7 @@ SPAN.line_item {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -1470,9 +1489,11 @@ SPAN.line_item {
 .brand img[src*="coe_logo_125px"] {
   max-height: 70px;
 }
+
 .brand img[src*="ifm_logo"] {
   max-height: 100px;
 }
+
 /*============================== 
     Contact
 ================================*/
@@ -2180,9 +2201,11 @@ ul.countdown li p.timeRefSeconds {
     font-size: 18px;
   }
 }
+
 nav .container {
   padding-right: 0;
 }
+
 @media screen and (max-width: 767px) {
   .portfolio .items {
     margin-top: 20px;
@@ -2258,10 +2281,11 @@ nav .container {
   background: #fff !important;
 }
 
-.logo{
+.logo {
   position: absolute;
   top: 25px;
 }
+
 .intro-logo {
   position: absolute;
   inset: 0;
@@ -2296,12 +2320,14 @@ nav .container {
     transform: translateY(0);
   }
 }
-.video-overlay{
+
+.video-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 3;
 }
+
 .bg-fade {
   position: absolute;
   inset: 0;
@@ -2316,22 +2342,18 @@ nav .container {
   position: absolute;
   inset: 0;
 
- background:
+  background:
     /* pink/red glow on left */
-    radial-gradient(
-      circle at 0% 15%,
+    radial-gradient(circle at 0% 15%,
       rgba(202, 50, 96, 0.55) 0%,
       rgba(212, 109, 165, 0.35) 30%,
-      rgba(0, 0, 0, 0.3) 58%
-    ),
+      rgba(0, 0, 0, 0.3) 58%),
 
     /* softer pink glow on right */
-    radial-gradient(
-      circle at 100% 15%,
+    radial-gradient(circle at 100% 15%,
       rgba(237, 165, 201, 0.65) 0%,
       rgba(231, 143, 169, 0.35) 22%,
-      rgba(201, 191, 222, 0) 48%
-    ),
+      rgba(201, 191, 222, 0) 48%),
 
     /* main background */
     #4303CB;
@@ -2374,43 +2396,65 @@ nav .container {
 */
 
 /*new CSS -- to be organized later*/
-.blurb-1{
-  position: absolute;
-  left: 80px;
-  bottom: 40px;
+.blurb1 {
   border-left: 3px solid white;
   padding-left: 20px;
   z-index: 5;
 }
-.blurb-1 p{
+
+.blurb1 p {
   color: white;
   margin-bottom: 5px;
+}
+
+.my-div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  width: 87%;
+  justify-content: space-between;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: end;
+  padding-bottom: 50px;
 }
 
 .tagline {
   display: flex;
   align-items: center;
 }
+
 .white-line {
-  width: 110px;
+  width: 108px;
   height: 2px;
+  margin-right: 5px;
   background: white;
 }
-.blurb-2{
-  position: absolute;
-  z-index:5;
+
+.blurb2 {
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  right: 80px;
-  bottom: 40px;
+ 
 }
-.blurb-2 p {
+
+.blurb2 p {
   color: white;
   margin-bottom: 5px;
 }
 
-#about-section{
+.pun{
+  font-style: italic;
+  margin: 0;
+}
+
+p.pun{
+  margin-bottom: 0;
+}
+
+#about-section {
   padding-top: 3rem;
 }
 
@@ -2420,14 +2464,14 @@ nav .container {
   color: black;
 }
 
-.heading{
+.heading {
   color: #ff1d38;
   font-size: 28px;
   font-weight: 700;
   text-align: center;
 }
 
-.circle{
+.circle {
   top: -5px;
   left: -45px;
   position: absolute;
@@ -2443,7 +2487,7 @@ nav .container {
   flex-direction: column;
 }
 
-.mission-list{
+.mission-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2453,48 +2497,52 @@ nav .container {
   padding-left: 35px;
 }
 
-.mission-text{
+.mission-text {
   position: relative;
   color: black;
   display: flex;
 }
-.top-text{
+
+.top-text {
   font-size: 25px;
 }
-.line-divider{
+
+.line-divider {
   width: 90vw;
   height: 2px;
   background: black;
   text-align: center;
-  
+
 }
 
-.section-head{
+.section-head {
   color: black;
   font-weight: 700;
   font-size: 35px;
 }
 
-#projects{
+#projects {
   color: black;
 }
 
-.gallery{
+.gallery {
   display: flex;
   /* grid-template-columns: repeat(6, 1fr); */
   gap: 0;
   width: 100%;
 }
-.items{
+
+.items {
   padding: 0;
   border-radius: 0;
   width: 250px;
 }
-.item-img img{
+
+.item-img img {
   border-radius: 0;
 }
 
-#subteam-subtext{
+#subteam-subtext {
   padding-top: 10px;
   display: flex;
   justify-content: center;
@@ -2502,54 +2550,63 @@ nav .container {
   font-weight: 700;
 }
 
-#subteam-subtext p{
+#subteam-subtext p {
   color: black;
   margin: 0;
   font-style: italic;
 }
 
-.subteam-card{
+.subteam-card {
   /* position: relative; */
   background: #191717;
   height: 160px;
-  width: 1200px;
+  width: 100%;
   border-left: 40px solid #ff1d38;
   padding-inline: 30px;
 }
-#propfeed{
+
+#propfeed {
   border-left: 40px solid #4303cb;
 }
-#airframe{
+
+#airframe {
   border-color: #d46da5;
 }
-#recovery{
+
+#recovery {
   border-color: #355dff;
 }
-#electrical{
+
+#electrical {
   border-color: #ffc862;
 }
-#controls{
-  border-color:#ff8a48;
+
+#controls {
+  border-color: #ff8a48;
 }
-#business{
+
+#business {
   border-color: #f9e4bc;
 }
-#subteams{
+
+#subteams {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-top: 20px;
 }
 
-.sub-name, .sub-descr{
+.sub-name,
+.sub-descr {
   display: flex;
   flex-direction: column;
 }
 
-.sub-name{
+.sub-name {
   margin-top: 20px;
 }
-.sub-name h4{
+
+.sub-name h4 {
   text-transform: uppercase;
   color: white;
   font-size: 30px;
@@ -2557,47 +2614,47 @@ nav .container {
   margin: 0;
 }
 
-.sub-name p{
+.sub-name p {
   font-style: italic;
   text-transform: uppercase;
-  margin:0;
+  margin: 0;
   font-size: 20px;
 }
 
-.sub-descr p{
+.sub-descr p {
   color: #c18086;
   font-size: 20px;
   width: 450px;
   text-align: right;
   font-weight: 600;
-  margin:0;
+  margin: 0;
 }
 
-.subteam-content{
+.subteam-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-.subname p{
+.subname p {
   text-align: left;
 }
 
-.bold{
+.bold {
   font-size: 700;
 }
 
-button:hover{
+button:hover {
   /* background: #ff1d38; */
   cursor: pointer;
   /* border: transparent; */
 }
 
-.cta-btn:hover{
+.cta-btn:hover {
   background: #ff1d38;
 }
-.project.hide{
+
+.project.hide {
   display: none;
 }
-
