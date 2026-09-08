@@ -1910,18 +1910,18 @@ nav .container {
   background: white;
 }
 
-.blurb2 {
+/* .blurb2 {
  
   display: flex;
   flex-direction: column;
   align-items: flex-end;
  
-}
+} */
 
-.blurb2 p {
+/* .blurb2 p {
   color: white;
   margin-bottom: 5px;
-}
+} */
 
 .pun{
   font-style: italic;

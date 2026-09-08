@@ -5,10 +5,11 @@
 
     <!-- Metas -->
     <meta charset="utf-8">
-    <meta name="author" content="Ali J. Gangeh" />    
+    <meta name="author" content="Ali J. Gangeh" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="rocketry liquid propulsion space UC Davis aggie propulsion lab rockets engine engineering APL ECLIPSE APRL" />
+    <meta name="keywords"
+        content="rocketry liquid propulsion space UC Davis aggie propulsion lab rockets engine engineering APL ECLIPSE APRL" />
     <meta name="description" content="Aggie Propulsion & Rocketry Lab (APRL) is a student-run bi-propellant liquid-fueled rocketry team. 
     We are working towards building UC Davis's first-ever liquid rocket. Our project will enable students at Davis to design, 
     build, test, and launch rockets for years to come. " />
@@ -34,6 +35,7 @@
     <link rel="stylesheet" href="css/leadership.css" />
     <link rel="stylesheet" href="css/side_menu.css" />
     <link rel="stylesheet" href="css/caraousel.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
 
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/fdb1983a87.js" crossorigin="anonymous"></script>
@@ -49,7 +51,7 @@
         </div>
     </div>
     <!-- End page loading -->
-    
+
     <!-- Start Header -->
     <header class="header valign bg-img no-transition mobile-height-70vh mb-bg-position-x-center relative"
         data-scroll-index="0" data-overlay-dark="3">
@@ -65,7 +67,8 @@
                     src="img\APRL_branding\new_APRL_logo.png" alt="APRL_logo" title="Aggie Propulsion & Rocketry Lab">
                 <!-- end Logo -->
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"><i class="fas fa-bars"></i></span>
                 </button>
 
@@ -110,21 +113,18 @@
             </div>
         </nav>
         <!-- End Navbar  -->
-            <div class="my-div">
-                <div class="blurb1">
-                    <p>Building the first liquid rocket at UC Davis</p>
-                    <p>While making rocketry accessible to all.</p>
-                </div>
-
-                <div class="blurb2">
-                    <p>Aggie Propulsion & Rocketry Lab</p>
-                    <div class="tagline">
-                        <div class="white-line"></div>
-                        <p class="text-uppercase pun">When cows fly</p>
-                    </div>
-                </div>
+        <div class="my-div">
+            <div class="blurb1">
+                <p>Building the first liquid rocket at UC Davis</p>
+                <p>While making rocketry accessible to all.</p>
             </div>
-        
+
+            <div class="blurb2" style="max-height: 200px; overflow: hidden; margin-right: -20px; ">
+                <img style="margin-top: 65px; width: 100%; height: 200px; object-fit: cover; object-position: center;"
+                    src="img/APRL_branding/when_cows_fly.webp" />
+            </div>
+        </div>
+
 
         <section id="intro">
             <video autoplay muted id="intro_vid">
@@ -364,7 +364,7 @@
                 </div>
                 <div class="center-col subteam-card" id="electrical">
                     <div class="subteam-content">
-                        <div class="sub-name">
+                        <div class="sub-name mt-0">
                             <h4>ELECTRICAL</h4>
                         </div>
                         <div class="sub-descr">
@@ -375,7 +375,7 @@
                 </div>
                 <div class="center-col subteam-card" id="controls">
                     <div class="subteam-content">
-                        <div class="sub-name">
+                        <div class="sub-name mt-0">
                             <h4>CONTROLS</h4>
                         </div>
                         <div class="sub-descr">
@@ -386,8 +386,8 @@
                 </div>
                 <div class="center-col subteam-card" id="business">
                     <div class="subteam-content">
-                        <div class="sub-name">
-                            <h4>BUSINESS</h4>
+                        <div class="sub-name mt-0">
+                            <h4>BUSINESS & OPERATIONS</h4>
                         </div>
                         <div class="sub-descr">
                             <p style="color: #c3ae85;">Manages club branding and media.
@@ -606,6 +606,30 @@
                 </div>
             </div>
         </section>
+        <section id="gallery">
+            <div id="red-divider"></div>
+            <div class="gallery-grid">
+                <div class="gallery-item wide">
+                    <img src="img/gallery/top-left.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/gallery/top-right.jpg" alt="">
+                </div>
+
+                <div class="gallery-item tall">
+                    <img src="img/gallery/IMG_8813.jpg" alt="">
+                </div>
+
+                <div class="gallery-item wide">
+                    <img src="img/gallery/mid-right.jpg" alt="">
+                </div>
+
+                <div class="gallery-item wide">
+                    <img src="img/gallery/bottom.jpg" alt="">
+                </div>
+            </div>
+        </section>
         <section class="center-col padding-15 support">
             <div id="support-section">
                 <p class="heading">Support Us!</p>
@@ -748,6 +772,7 @@
                     <img style="border-radius: 0;" alt="group photo of APRL members" src="img\people\socials.JPG">
                 </div>
             </div>
+
             <div class="center-col"
                 style="display: flex; flex-direction: column; align-items:center; padding-top: 50px;">
                 <img style="height: 50px;" alt="aprl logo" src="img\APRL_branding\aprl-simple-black.png">
