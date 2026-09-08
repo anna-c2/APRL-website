@@ -300,6 +300,14 @@ $(function() {
     }
 
     SetResizeContent();
+    
+    var form = $('.contact-form');
+        form.submit(function() {
+            $.post(form.attr('action'), $('.contact-form').serialize(), function(data) {
+                $(`#success-contact-form`).text("Your email has been sent!").fadeIn().delay(3000).fadeOut();
+            }, 'json');
+            return false;
+        });
 
     // Slider 
     $(document).ready(function() {

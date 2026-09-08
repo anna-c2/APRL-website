@@ -16,26 +16,24 @@
     <title>Mach Verstocket</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="72x72"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="114x114"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+    <link rel="shortcut icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img\APRL_branding\new_favicon.png">
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/ALI.css" />
+    <link rel="stylesheet" href="css/project-page.css" />
+    <link rel="stylesheet" href="css/side_menu.css" />
+
 
 </head>
 
 <body>
-
+    <div id="menu-component"></div>
     <!-- Start page loading -->
     <div id="preloader">
         <div class="row loader">
@@ -44,7 +42,7 @@
     </div>
     <!-- End page loading -->
 
-    <section class="hero">
+    <section class="hero verstocket">
         <div class="hero-overlay">
             <div class="top-bar">
                 <div>
@@ -73,40 +71,46 @@
         <div class="px-5 py-4">
             <h2 class="bold">Project Overview</h2>
             <p class="description">Mach Verstocket became APRL’s first supersonic rocket, blasting through the sky at an
-                incredible **Mach 1.15**, a milestone for rocketry at UC Davis. Originally designed as a solid‑motor
+                incredible Mach 1.15, a milestone for rocketry at UC Davis. Originally designed as a solid‑motor
                 subscale testbed for our full‑scale liquid‑propulsion vehicle, Verstocket stands 83.25 inches tall with
                 a 3.12‑inch diameter airframe.
             </p>
             <p class="description">
                 Outfitted with carbon‑fiber fins, three onboard flight computers, and a full‑flight camera payload, this
-                rocket wasn’t just built to fly, but to *perform*. And perform it did. In May 2025, Verstocket roared
-                off the pad on an L1000W‑18 motor, soaring to a peak altitude of **9,900 feet** and cementing its place
+                rocket wasn’t just built to fly, but to perform. And perform it did. In May 2025, Verstocket roared
+                off the pad on an L1000W‑18 motor, soaring to a peak altitude of 9,900 feetand cementing its place
                 as one of APRL’s most thrilling achievements.
             </p>
             <p class="description">
                 The name “Mach Verstocket” comes from the F1’s World Drivers' Champion Max Verstappen, known to dominate
-                F1 circuits with extreme speed just like our mach vehicle dominated the sky.
+                F1 circuits with extreme speed just like our mach vehicle dominated the sky.</p>
 
-                Flight Video: https://www.youtube.com/watch?v=KPnJYzwtgJs</p>
+            <p>Flight Video: <a
+                    href="https://www.youtube.com/watch?v=KPnJYzwtgJs">https://www.youtube.com/watch?v=KPnJYzwtgJs</a>
+            </p>
         </div>
-        <div style="display: flex; align-items: center; padding-block: 60px;">
+        <div style="display: flex; padding-block: 60px;">
             <div class="red-stripe">
                 <div class="project-details">
                     <div class="detail">
-                        <p class="metric">650 lbf</p>
-                        <p class="unit">Target Thrust</p>
+                        <p class="metric">1.15</p>
+                        <p class="unit">Mach</p>
                     </div>
                     <div class="detail">
-                        <p class="metric">400 psi</p>
-                        <p class="unit">Chamber Pressure</p>
+                        <p class="metric">83.25</p>
+                        <p class="unit">Length</p>
                     </div>
                     <div class="detail">
-                        <p class="metric">250 s</p>
-                        <p class="unit">Specific Impulse</p>
+                        <p class="metric">3.12 in</p>
+                        <p class="unit">Diameter</p>
                     </div>
                     <div class="detail">
-                        <p class="metric">10 s</p>
-                        <p class="unit">Burntime</p>
+                        <p class="metric">1325 ft/s</p>
+                        <p class="unit">Max Speed</p>
+                    </div>
+                    <div class="detail">
+                        <p class="metric">9900 ft</p>
+                        <p class="unit">Peak Altitude</p>
                     </div>
                 </div>
             </div>
@@ -150,6 +154,9 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- nav menu -->
+    <script src="js/side_menu.js"></script>
 
 </body>
 

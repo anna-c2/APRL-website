@@ -16,26 +16,22 @@
     <title>Engine &mu;2</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="72x72"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="114x114"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-
+    <link rel="shortcut icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img\APRL_branding\new_favicon.png">
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/ALI.css" />
+    <link rel="stylesheet" href="css/project-page.css" />
+    <link rel="stylesheet" href="css/side_menu.css" />
 
 </head>
 
 <body>
-
+    <div id="menu-component"></div>
     <!-- Start page loading -->
     <div id="preloader">
         <div class="row loader">
@@ -44,7 +40,7 @@
     </div>
     <!-- End page loading -->
 
-    <section class="hero">
+    <section class="hero engine2">
         <div class="hero-overlay">
             <div class="top-bar">
                 <div>
@@ -72,27 +68,27 @@
     <section class="overview-section">
         <div class="px-5 py-4">
             <h2 class="bold">Project Overview</h2>
-            <p class="description">The μ2 Engine is the direct successor to our first engine, μ. </p>
+            <p class="description">The μ2 Engine is built to be our first flight engine. It is the direct successor of
+                the μ Engine, our first ever engine. Like its predecessor, μ2 features a graphite nozzle, and an
+                ablative chamber liner. Unlike its predecessor, μ2 uses an additively manufactured triplet impinging
+                injector. To date engine μ2 has been hot fire tested 8 times. </p>
         </div>
-        <div style="display: flex; align-items: center; padding-block: 60px;">
+        <div style="display: flex; padding-block: 60px;">
             <div class="red-stripe">
                 <div class="project-details">
                     <div class="detail">
-                        <p class="metric">650 lbf</p>
-                        <p class="unit">Target Thrust</p>
+                        <p class="metric">820 lbf</p>
+                        <p class="unit">Thrust Peak</p>
                     </div>
                     <div class="detail">
-                        <p class="metric">400 psi</p>
+                        <p class="metric">365 psia</p>
                         <p class="unit">Chamber Pressure</p>
                     </div>
                     <div class="detail">
-                        <p class="metric">250 s</p>
-                        <p class="unit">Specific Impulse</p>
+                        <p class="metric">210 s</p>
+                        <p class="unit">lsp peak</p>
                     </div>
-                    <div class="detail">
-                        <p class="metric">10 s</p>
-                        <p class="unit">Burntime</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -135,6 +131,9 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- nav menu -->
+    <script src="js/side_menu.js"></script>
 
 </body>
 

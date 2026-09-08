@@ -19,13 +19,13 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+        href="img\APRL_branding\new_favicon.png">
     <link rel="apple-touch-icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+        href="img\APRL_branding\new_favicon.png">
     <link rel="apple-touch-icon" sizes="72x72"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+        href="img\APRL_branding\new_favicon.png">
     <link rel="apple-touch-icon" sizes="114x114"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
+        href="img\APRL_branding\new_favicon.png">
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
@@ -37,6 +37,8 @@
     <link rel="stylesheet" href="css/contact-socials.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/leadership.css" />
+    <link rel="stylesheet" href="css/side_menu.css" />
+    <link rel="stylesheet" href="css/caraousel.css" />
 
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/fdb1983a87.js" crossorigin="anonymous"></script>
@@ -94,14 +96,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership">Leadership</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">The APRL Archives</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#support-section">Support Us!</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sponsors">Sponsor Us!</a>
+                            <a class="nav-link" href="sponsors.html">Sponsor Us!</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -174,28 +176,45 @@
                     </div>
                 </div>
             </div>
-            <div class="center-col text-center pb-4">
+            <div class="center-col text-center py-4">
                 <img src="img\APRL_branding\aprl-black-outline-logo.png" alt="black outline aprl logo"
                     style="width: 120px;" />
             </div>
             <!-- start about description section-->
-            <div class="center-col" style="width: 1200px; height: 600px; overflow:hidden;">
+            <!-- <div class="center-col" style="width: 1200px; height: 600px; overflow:hidden;">
                 <img style="margin: -200px 0 0 0; filter: brightness(150%);" alt="group photo of aprl members"
                     src="img\people\about.png">
+            </div> -->
+            <div class="about-carousel">
+
+                <button class="carousel-btn prev" aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <div class="carousel-track">
+                    <img class="carousel-slide pic1 active" src="img/people/about.png" alt="Group photo of APRL members">
+                    <img class="carousel-slide" src="img/people/IMG_0991.JPG" alt="APRL team at an event">
+                    <img class="carousel-slide" src="img/people/IMG_3281.JPG" alt="APRL team at an event">
+                </div>
+
+                <button class="carousel-btn next" aria-label="Next image">
+                    &#10095;
+                </button>
+
             </div>
-            <div id="mission" class="row mission pt-4">
+            <div id="mission" class="row mission pt-5">
                 <div class="center-col text-center">
                     <h5 class="heading">Our Mission</h5>
                 </div>
 
-                <div class="mission-list">
+                <div class="center-col mission-list">
                     <div class="mission-text">
                         <!-- circle -->
                         <div class="circle"></div>
                         <!-- text -->
                         <div>
                             <div class="top-text">Make Rocketry Accessible</div>
-                            <div class="bottom-text">Regardless of...</div>
+                            <div class="bottom-text">Regardless of background or experience</div>
                         </div>
                     </div>
 
@@ -203,9 +222,10 @@
                         <!-- circle -->
                         <div class="circle"></div>
                         <!-- text -->
-                        <div>
+                        <div style="width: 480px;">
                             <div class="top-text">Create an Engineering Community</div>
-                            <div class="bottom-text">Connecting Students...</div>
+                            <div class="bottom-text"> Connecting students through shared curiosity, practical learning,
+                                and ambitious team projects.</div>
                         </div>
                     </div>
 
@@ -215,7 +235,8 @@
                         <!-- text -->
                         <div>
                             <div class="top-text">Push the limits of undergraduate rocketry</div>
-                            <div class="bottom-text">Turning Analysis...</div>
+                            <div class="bottom-text">Turning analysis into hardware and use real testing data to improve
+                                every iteration.</div>
                         </div>
                     </div>
                 </div>
@@ -239,45 +260,45 @@
                     experience of real engineering
                     systems.</p>
                 <div class="projects-container">
-                    <div class="project" style="background:#808ec5">
+                    <div class="project test_stand" style="background:#808ec5">
                         <a href="ALI.html">
                             <div class="overlay"></div>
                             <img src="img\APRL_photos\projects\ALI.JPG">
                             <p>Adaptive Liquid Infrastructure Stand (ALI)</p>
                         </a>
                     </div>
-                    <div class="project" style="background:#80c5bf">
+                    <div class="project test_stand" style="background:#80c5bf">
                         <a href="VTS.html">
                             <div class="overlay"></div>
-                            <img src="">
+                            <img src="img/APRL_photos/projects/VTS.png">
                             <p>Vertical Test Stand (VTS)</p>
                         </a>
                     </div>
-                    <div class="project" style="background:#808ec5">
+                    <div class="project vehicle" style="background:#808ec5">
                         <a href="verstocket.html">
                             <div class="overlay"></div>
-                            <img src="">
+                            <img src="img\APRL_photos\projects\mach_cover.jpg">
                             <p>Mach Verstocket</p>
                         </a>
                     </div>
-                    <div class="project" style="background:#c580c4">
+                    <div class="project engine" style="background:#c580c4">
                         <a href="Engine_mu.html">
                             <div class="overlay"></div>
-                            <img src="img\APRL_photos\projects\engine mu2.JPG" class="">
+                            <img src="img\APRL_photos\projects\engine_mu2.png" class="">
                             <p>Engine &mu;2</p>
                         </a>
                     </div>
-                    <div class="project" style="background:#c5808e">
+                    <div class="project vehicle" style="background:#c5808e">
                         <a href="thrust.html">
                             <div class="overlay"></div>
-                            <img src="">
+                            <img src="img\APRL_photos\projects\thrust.png">
                             <p>Thrust Vector Control Concept (TVSC^2)</p>
                         </a>
                     </div>
-                    <div class="project" style="background:#808ec5">
+                    <div class="project vehicle" style="background:#808ec5">
                         <a href="ophio.html">
                             <div class="overlay"></div>
-                            <img src="">
+                            <img src="img\APRL_photos\projects\ophio.png">
                             <p>Ophiotaurus</p>
                         </a>
                     </div>
@@ -366,7 +387,7 @@
                 <div class="center-col subteam-card" id="business">
                     <div class="subteam-content">
                         <div class="sub-name">
-                            <h4>PROPELLANT FEED</h4>
+                            <h4>BUSINESS</h4>
                         </div>
                         <div class="sub-descr">
                             <p style="color: #c3ae85;">Manages club branding and media.
@@ -422,7 +443,7 @@
                             <!-- Regular members -->
                             <div class="member-card">
                                 <div class="headshot">
-                                    <img>
+                                    <img alt="picture of jasper dratt" src="img\APRL_photos\headshots\jasper.jpeg">
                                 </div>
 
                                 <div class="member-info">
@@ -435,7 +456,7 @@
 
                             <div class="member-card">
                                 <div class="headshot">
-                                    <img>
+                                    <img style="object-position: 0 -10px;" src="img\APRL_photos\headshots\Lucas!.jpeg">
                                 </div>
 
                                 <div class="member-info">
@@ -448,7 +469,7 @@
 
                             <div class="member-card">
                                 <div class="headshot">
-                                    <img>
+                                    <img alt="picture of cole walker" src="img\APRL_photos\headshots\cole.jpg">
                                 </div>
 
                                 <div class="member-info">
@@ -594,8 +615,8 @@
 
                 </div>
                 <div class="cta">
-                    <button>Donate</button>
-                    <button>Crowdfund</button>
+                    <a target="_blank" href="https://www.gofundme.com/f/aggie-propulsion-rocketry-lab?attribution_id=sl:36687d7e-876a-476e-bd0c-ec27681d4d86&lang=en_US&ts=1762364889&utm_campaign=man_sharesheet_dash&utm_content=amp17_td&utm_medium=customer&utm_source=copy_link"><button class="cta-btn">Donate</button></a>
+                    <button class="cta-btn">Crowdfund</button>
                 </div>
                 <p style="font-weight: 600; padding-top: 30px; font-size: 13px;">FUELED BY COMMUNITY</p>
 
@@ -612,7 +633,7 @@
                     companies willing to provide their trust and support in materials, components, and services to get
                     us closer to breakthroughs in our projects. To learn more about sponsoring us, visit our sponsors
                     page!</p>
-                <button>Sponsors</button>
+                <a href="sponsors.html"><button class="cta-btn">Sponsors</button></a>
             </div>
         </section>
 
@@ -676,10 +697,12 @@
                                     id="message" name="message"></textarea>
                             </div>
                             <div class="col-md-12 ">
-                                <button class="btn" type="submit">Send Message</button>
+                                <button class="submit-btn" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
+                    <div id="formStatus" class="form-status" role="status">
+                    </div>
                 </div>
             </div>
         </section>
@@ -691,22 +714,32 @@
                         <div class="bar"></div>
                     </div>
                     <div class="socials">
-                        <div class="d-flex social-link" style="display: flex; gap:20px; align-items:center;">
-                            <img style="height:40px;" alt="instagram logo" src="img\socials\instagram.png">
-                            <p>aprl.davis</p>
-                        </div>
-                        <div class="d-flex social-link">
-                            <img style="height:40px;" alt="youtube logo" src="img\socials\youtube.png">
-                            <p>APRL Davis</p>
-                        </div>
-                        <div class="d-flex social-link">
-                            <img style="height:40px;" alt="discord logo" src="img\socials\discord.png">
-                            <p>APRL - Aggie Propulsion & <br> Rocketry Lab</p>
-                        </div>
-                        <div class="d-flex social-link">
-                            <img style="height:40px;" alt="github logo" src="img\socials\github.png">
-                            <p>Github</p>
-                        </div>
+                        <a href="https://www.instagram.com/aprl.davis/">
+                            <div class="d-flex social-link" style="display: flex; gap:20px; align-items:center;">
+                                <img style="height:40px;" alt="instagram logo" src="img\socials\instagram.png">
+                                <p>aprl.davis</p>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/@APRL-Davis">
+                            <div class="d-flex social-link">
+                                <img style="height:40px;" alt="youtube logo" src="img\socials\youtube.png">
+                                <p>APRL Davis</p>
+                            </div>
+                        </a>
+                        <a href="https://discord.gg/SXHJesKAcP">
+                            <div class="d-flex social-link">
+                                <img style="height:40px;" alt="discord logo" src="img\socials\discord.png">
+                                <p>APRL - Aggie Propulsion & <br> Rocketry Lab</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/UC-Davis-APRL">
+                            <div class="d-flex social-link">
+
+                                <img style="height:40px;" alt="github logo" src="img\socials\github.png">
+                                <p>Github</p>
+
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class=" group-photo">
@@ -721,7 +754,13 @@
         </section>
     </div>
 
+    <div id="menu-component"></div>
+
     <!-- jQuery -->
+    <script src="js/caraousel.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/side_menu.js" defer></script>
+    <script src="js/project-filter.js"></script>
     <script src="js/jquery.min.js"></script>
 
     <!-- popper.min -->

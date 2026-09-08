@@ -15,14 +15,15 @@
 
 #support-section .text {
     font-size: 18px;
-    width: 700px;
+    width: 90%;
+    max-width: 1150px;
     text-align: left;
 }
 
 .cta {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .cta button {
@@ -31,6 +32,7 @@
     border-radius: 25px;
     color: white;
     padding: 5px 10px;
+    font-size: 16px;
     font-weight: 700;
     width: 120px;
 }
@@ -62,14 +64,14 @@
     padding-block: 20px;
     color: white;
     font-size: 16px;
-    width: 750px;
+    width: 90%;
 }
 
 #sponsors button {
-    background: #ff1d38;
+    background: transparent;
+    border: 2px #ff1d38 solid;
     color: white;
     border-radius: 25px;
-    border: none;
     padding: 8px 10px;
     width: 170px;
     font-size: 18px;
@@ -85,4 +87,8 @@
 .contact,
 .social-section {
     width: 1200px;
+}
+
+button:hover, #sponsors button:hover{
+    background:#ff1d38;
 }

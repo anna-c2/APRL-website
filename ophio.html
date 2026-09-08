@@ -16,26 +16,22 @@
     <title>Ophiotaurus</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="72x72"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-    <link rel="apple-touch-icon" sizes="114x114"
-        href="img/APRL_branding/ICON_ONLY/RGB_WhiteOnTransparent_NoStars/APRL_Constellation_ICON_WhiteOnTransparentPath.png">
-
+    <link rel="shortcut icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img\APRL_branding\new_favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img\APRL_branding\new_favicon.png">
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/ALI.css" />
+    <link rel="stylesheet" href="css/project-page.css" />
+    <link rel="stylesheet" href="css/side_menu.css" />
 
 </head>
 
 <body>
-
+    <div id="menu-component"></div>
     <!-- Start page loading -->
     <div id="preloader">
         <div class="row loader">
@@ -44,7 +40,7 @@
     </div>
     <!-- End page loading -->
 
-    <section class="hero">
+    <section class="hero ophio">
         <div class="hero-overlay">
             <div class="top-bar">
                 <div>
@@ -76,29 +72,12 @@
                 Ophiotaurus (skim milk?, and from now on will be referred to as Ophio) is the final test rocket for
                 before 2% Milk (aka taurus). It’s going to serve as a testbed for recovery and structural systems, along
                 with building team skill in manufacturing the stringer-bulkhead airframe structures. </p>
+            <p class="description">Ophio is planned to fly to an altitude of 2100 feet, and attain a maximum speed of
+                close to 250 miles per
+                hour. While that isn’t too high or fast, this will still provide us an invaluable opportunity to refine
+                our manufacturing skills, hone our large rocket handling skills, and collect invaluable test data . </p>
         </div>
-        <div style="display: flex; align-items: center; padding-block: 60px;">
-            <div class="red-stripe">
-                <div class="project-details">
-                    <div class="detail">
-                        <p class="metric">650 lbf</p>
-                        <p class="unit">Target Thrust</p>
-                    </div>
-                    <div class="detail">
-                        <p class="metric">400 psi</p>
-                        <p class="unit">Chamber Pressure</p>
-                    </div>
-                    <div class="detail">
-                        <p class="metric">250 s</p>
-                        <p class="unit">Specific Impulse</p>
-                    </div>
-                    <div class="detail">
-                        <p class="metric">10 s</p>
-                        <p class="unit">Burntime</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </section>
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
@@ -138,6 +117,9 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- nav menu -->
+    <script src="js/side_menu.js"></script>
 
 </body>
 

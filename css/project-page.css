@@ -1,6 +1,9 @@
 .bold{
     font-weight: 700;
 }
+strong{
+    font-weight: 1000;
+}
 .hero {
     width: 100vw;
     height: 100vh;
@@ -11,6 +14,18 @@
     background-repeat: no-repeat;
 }
 
+.hero.VTS{
+    background-image: url("../img/APRL_photos/projects/VTS.png");
+}
+.hero.verstocket{
+    background-image: url("../img/APRL_photos/projects/mach_cover.jpg");
+}
+.hero.engine2{
+    background-image: url("../img/APRL_photos/projects/engine_mu2.png");
+}
+.hero.ophio{
+    background-image: url("../img/APRL_photos/projects/ophio.png");
+}
 .hero-overlay {
         position: relative;
     width: 100%;
@@ -48,9 +63,9 @@
 .top-bar h3{
     color: #ff1d38;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .project-intro{
@@ -65,7 +80,7 @@
 }
 
 .hero-intro p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .overview-section{
@@ -83,6 +98,9 @@
     line-height: 2;
     width: 750px;
 }
+a{
+    font-size: 14px;
+}
 .project-details{
     display: flex;
     flex-direction: column;
@@ -99,7 +117,7 @@
 .detail .metric{
     font-weight: 700;
     font-size: 24px;
-    width: 100px;
+    width: 110px;
     text-align: center;
     margin: 0;
 }

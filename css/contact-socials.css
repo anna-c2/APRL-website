@@ -18,11 +18,13 @@
     padding: 30px 40px;
 }
 
-.social-box{
+.social-box {
     padding: 30px;
-    padding-right:0;
+    padding-right: 0;
 }
-.group-photo, .social-box{
+
+.group-photo,
+.social-box {
     width: 600px;
 }
 
@@ -108,4 +110,32 @@
             #ff1d38 25%, #ff1d38 50%,
             #ffc862 50%, #ffc862 75%,
             #4303cb 75%, #4303cb 100%);
+}
+
+
+/* email submit status */
+.form-status {
+    margin-top: 16px;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 10px;
+    
+
+}
+
+.form-status p {
+    margin: 0;
+}
+
+.form-status.success {
+    background:rgb(234, 226, 230);
+    color: #2e7d32;
+    padding: 5px 20px;
+}
+
+.form-status.error {
+    background: rgb(255, 205, 205);
+
+    color: #c62828;
+    padding: 5px 20px;
 }

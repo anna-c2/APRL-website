@@ -160,7 +160,7 @@ a:active {
   text-decoration: none;
 }
 
-.btn {
+.submit-btn {
   display: inline-block;
   font-size: 14px;
   padding: 9px 22px;
@@ -168,7 +168,7 @@ a:active {
   border: 2px solid #ff1d38;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 1px !important;
-  color: #fff;
+  color: white;
   letter-spacing: .5px;
   line-height: inherit;
   width: auto;
@@ -2450,6 +2450,7 @@ nav .container {
   gap: 30px;
   padding-top: 1.5rem;
   padding-bottom: 3rem;
+  padding-left: 35px;
 }
 
 .mission-text{
@@ -2586,3 +2587,17 @@ nav .container {
 .bold{
   font-size: 700;
 }
+
+button:hover{
+  /* background: #ff1d38; */
+  cursor: pointer;
+  /* border: transparent; */
+}
+
+.cta-btn:hover{
+  background: #ff1d38;
+}
+.project.hide{
+  display: none;
+}
+
