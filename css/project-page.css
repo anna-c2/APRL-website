@@ -26,6 +26,12 @@ strong{
 .hero.ophio{
     background-image: url("../img/APRL_photos/projects/ophio.png");
 }
+
+.hero.thrust{
+    background-image: url("../img/APRL_photos/projects/thrust.png");
+    background-size: 50% 100%;
+}
+
 .hero-overlay {
         position: relative;
     width: 100%;

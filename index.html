@@ -53,77 +53,86 @@
     <!-- End page loading -->
 
     <!-- Start Header -->
-    <header class="header valign bg-img no-transition mobile-height-70vh mb-bg-position-x-center relative"
+    <header id="home-top" class="header valign bg-img no-transition mobile-height-70vh mb-bg-position-x-center relative"
         data-scroll-index="0" data-overlay-dark="3">
         <!-- Prev. version had data-background="img/space/stars_sized.jpg" data-stellar-background-ratio="0.5" -->
 
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-lg border-none">
-            <div class="container sm-padding-10px-tb relative">
-
-                <!-- start logo -->
-                <!--  -->
-                <img class="logo no-padding " style="width: 70pt; margin: 10pt;"
-                    src="img\APRL_branding\new_APRL_logo.png" alt="APRL_logo" title="Aggie Propulsion & Rocketry Lab">
-                <!-- end Logo -->
-
+            <div class="relative">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"><i class="fas fa-bars"></i></span>
                 </button>
 
-                <!-- navbar links -->
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#navBarContent">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-section">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#mission">Our Mission</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#subteams">Subteams</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#leadership">Leadership</a>
-                        </li>
-                        <!-- <li class="nav-item">
+                <div style="display: flex; flex-direction: column; height: 100vh; max-height: 1200px; width: 1200px; padding: 20px;">
+                    <div class="nav-top">
+                        <!-- start logo -->
+                         <div>
+                        <img class=" " style="width: 70pt; margin: 10pt;"
+                            src="img\APRL_branding\new_APRL_logo.png" alt="APRL_logo"
+                            title="Aggie Propulsion & Rocketry Lab">
+                            </div>
+                        <!-- end Logo -->
+
+                        <!-- navbar links -->
+                        <div class="collapse navbar-collapse" id="">
+                            <ul class="ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#home-top">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about-section">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mission">Our Mission</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#subteams">Subteams</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#leadership">Leadership</a>
+                                </li>
+                                <!-- <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">The APRL Archives</a>
                         </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#support-section">Support Us!</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sponsors.html">Sponsor Us!</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#support-section">Support Us!</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sponsors.html">Sponsor Us!</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
 
 
-                    </ul>
+                            </ul>
+                        </div>
+                        <!-- end navbar links -->
+                    </div>
+
+                    <div class="my-div">
+                        <div class="blurb1">
+                            <p>Building the first liquid rocket at UC Davis</p>
+                            <p>While making rocketry accessible to all.</p>
+                        </div>
+
+                        <div class="blurb2" style="max-height: 200px; overflow: hidden; margin-right: -20px; ">
+                            <img style="margin-top: 65px; width: 100%; height: 200px; object-fit: cover; object-position: center;"
+                                src="img/APRL_branding/when_cows_fly.webp" />
+                        </div>
+                    </div>
+
                 </div>
-                <!-- end navbar links -->
+
             </div>
         </nav>
         <!-- End Navbar  -->
-        <div class="my-div">
-            <div class="blurb1">
-                <p>Building the first liquid rocket at UC Davis</p>
-                <p>While making rocketry accessible to all.</p>
-            </div>
 
-            <div class="blurb2" style="max-height: 200px; overflow: hidden; margin-right: -20px; ">
-                <img style="margin-top: 65px; width: 100%; height: 200px; object-fit: cover; object-position: center;"
-                    src="img/APRL_branding/when_cows_fly.webp" />
-            </div>
-        </div>
 
 
         <section id="intro">
@@ -194,7 +203,11 @@
                     <img class="carousel-slide pic1 active" src="img/people/about.png"
                         alt="Group photo of APRL members">
                     <img class="carousel-slide" src="img/people/IMG_0991.JPG" alt="APRL team at an event">
+                    <img class="carousel-slide" src="img/people/group-pic-rockets.jpg" alt="APRL team at an event">
                     <img class="carousel-slide" src="img/people/IMG_3281.JPG" alt="APRL team at an event">
+                    <img class="carousel-slide" src="img/people/group-pic-night.jpg" alt="APRL team at an event">
+
+                    <img class="carousel-slide" src="img/people/group-pic-event.jpg" alt="APRL team at an event">
                 </div>
 
                 <button class="carousel-btn next" aria-label="Next image">
@@ -310,7 +323,7 @@
         <section id="subteams">
             <div class="section-head" style="text-align: center; padding-top:50px;">Subteams</div>
             <div id="subteam-subtext">
-                <p>The divisions powering</p>
+                <p>powering</p>
                 <img src="img\APRL_branding\aprl-simple-black.png" style="height: 40px">
             </div>
             <div id="subteams">
@@ -401,9 +414,9 @@
             <div>
                 <p class="lead-heading">Leadership</p>
                 <!-- project manager -->
-                <div style="display: flex; justify-content: center;">
-                    <div class="pm">
-                        <div class="pm-line" style="display: flex; flex-direction:column;">
+                <div style="display: flex; justify-content: center; gap: 20px;">
+                    <div class="member-card top">
+                        <!-- <div class="pm-line" style="display: flex; flex-direction:column;">
                             <div style="background: #ff1d38;"></div>
                             <div style="background: #4303cb"></div>
                             <div style="background: #355dff"></div>
@@ -411,15 +424,59 @@
                             <div style="background: #ffc862"></div>
                             <div style="background: #ff8a48"></div>
                             <div style="background: #f9e4bc"></div>
-                        </div>
+                        </div> -->
                         <div class="headshot">
                             <img alt="Daniel Fan headshot" src="img\APRL_photos\headshots\Daniel.png">
                         </div>
-                        <div class="person">
-                            <p class="name">Daniel Fan</p>
-                            <p class="role">Project Manager of<br> Aggie Propulstion & Rocketry Lab</p>
+                        <div class="member-info">
+                            <h2>Daniel Fan</h2>
+                            <p>Project Manager of Aggie Propulsion & Rocketry Lab</p>
+                        </div>
+                        <div class="color-line line-2">
+                            <span class="red"></span>
+                            <span class="purple"></span>
+                            <span class="blue"></span>
+                            <span class="pink"></span>
+                            <span class="yellow"></span>
+                            <span class="orange"></span>
+                            <span class="cream"></span>
                         </div>
                     </div>
+
+                    <div class="member-card top">
+                        <div class="headshot">
+                            <img src="img\APRL_photos\headshots\Charan.jpg">
+                        </div>
+
+                        <div class="member-info">
+                            <h2>Charan<br>Sampath</h2>
+                            <p>Chief Engineer of Propulsion</p>
+                        </div>
+
+                        <div class="color-line line-1">
+                            <span class="red"></span>
+                            <span class="purple"></span>
+                        </div>
+                    </div>
+
+                    <!-- Featured / Chief Engineer -->
+                    <div class="member-card top">
+                        <div class="headshot">
+                            <img src="img\APRL_photos\headshots\Natasha.png">
+                        </div>
+
+                        <div class="member-info">
+                            <h2>Natasha<br>Alvarenga</h2>
+                            <p>Chief Engineer of Vehicle</p>
+                        </div>
+
+                        <div class="color-line line-3">
+                            <span class="blue"></span>
+                            <span class="pink"></span>
+                        </div>
+                    </div>
+
+
                 </div>
                 <!-- left tree -->
                 <div style="display: flex; gap: 30px; padding-top: 20px;">
@@ -427,18 +484,7 @@
                         <div class="team-grid">
 
                             <!-- Featured / Chief Engineer -->
-                            <div class="member-card featured">
-                                <div class="headshot">
-                                    <img src="img\APRL_photos\headshots\Charan.jpg">
-                                </div>
 
-                                <div class="member-info">
-                                    <h2>Charan<br>Sampath</h2>
-                                    <p>Chief Engineer of<br>Propulsion</p>
-                                </div>
-
-                                <div class="stripe featured-stripe propulsion"></div>
-                            </div>
 
                             <!-- Regular members -->
                             <div class="member-card">
@@ -481,8 +527,8 @@
                             </div>
 
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img>
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
                                 <div class="member-info">
                                     <h3>Rubi Rodriguez</h3>
@@ -492,8 +538,8 @@
                                 <div class="stripe blue"></div>
                             </div>
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img>
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
                                 <div class="member-info">
                                     <h3>Nolan Poe</h3>
@@ -522,20 +568,6 @@
                     <div>
                         <div class="team-grid">
 
-                            <!-- Featured / Chief Engineer -->
-                            <div class="member-card featured">
-                                <div class="headshot">
-                                    <img src="img\APRL_photos\headshots\Natasha.png">
-                                </div>
-
-                                <div class="member-info">
-                                    <h2>Natasha<br>Alvarenga</h2>
-                                    <p>Chief Engineer of<br>Vehicle</p>
-                                </div>
-
-                                <div class="stripe featured-stripe vehicle"></div>
-                            </div>
-
                             <!-- Regular members -->
                             <div class="member-card">
                                 <div class="headshot">
@@ -553,8 +585,8 @@
                             <div></div>
 
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img src="">
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
 
                                 <div class="member-info">
@@ -566,8 +598,8 @@
                             </div>
 
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img src="">
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
                                 <div class="member-info">
                                     <h3>Adam Pratt-Dermer</h3>
@@ -577,8 +609,8 @@
                                 <div class="stripe magenta"></div>
                             </div>
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img>
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
                                 <div class="member-info">
                                     <h3>Vaughn Bui</h3>
@@ -589,8 +621,8 @@
                             </div>
 
                             <div class="member-card">
-                                <div class="headshot">
-                                    <img>
+                                <div style="background: #191717; padding: 40px;" class="headshot">
+                                    <img class="cow_placeholder" src="img/APRL_branding/lead_placeholder.webp">
                                 </div>
                                 <div class="member-info">
                                     <h3>Benjamin Nguyen</h3>
@@ -641,7 +673,7 @@
                 <div class="cta">
                     <a target="_blank"
                         href="https://www.gofundme.com/f/aggie-propulsion-rocketry-lab?attribution_id=sl:36687d7e-876a-476e-bd0c-ec27681d4d86&lang=en_US&ts=1762364889&utm_campaign=man_sharesheet_dash&utm_content=amp17_td&utm_medium=customer&utm_source=copy_link"><button
-                            class="cta-btn">Donate</button></a>
+                            class="cta-btn">GoFundMe</button></a>
                     <button class="cta-btn">Crowdfund</button>
                 </div>
                 <p style="font-weight: 600; padding-top: 30px; font-size: 13px;">FUELED BY COMMUNITY</p>
