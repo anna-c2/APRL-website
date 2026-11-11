@@ -142,7 +142,7 @@ button:hover, #sponsors button:hover{
     padding-top: 30px;
     display: flex;
     width: 50%;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .sponsors-preview div img{

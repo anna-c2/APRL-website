@@ -9,6 +9,7 @@
     background: rgb(199, 190, 190);
     width: 270px;
     height: 270px;
+    overflow:hidden;
 }
 
 .home-section {
