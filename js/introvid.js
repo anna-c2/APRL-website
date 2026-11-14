@@ -34,12 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoElement = document.getElementById("intro_vid");
     const bgElement = document.querySelector(".bg-fade");
 
+
     const bgURL = new URL(selectedBg, document.baseURI).href;
     bgElement.style.setProperty("--bg-image", `url("${bgURL}")`);
+    
 
     videoElement.src = selectedVideo;
     videoElement.load();
     videoElement.play().catch(error => {
         console.log("Intro video error: ", error);
     });
+
 });
